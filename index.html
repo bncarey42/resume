@@ -2,10 +2,11 @@
 <html>
 <meta charset="utf-8">
 <title> Ben Carey | Resume </title>
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!-- Font -->
+<link rel="stylesheet" href="//brick.freetls.fastly.net/Lato:400">
 <!-- DevIcons https://devicon.dev/ -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
-<!--  -->
+<!-- uniicons - line icons -->
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 </head>
 
@@ -14,29 +15,55 @@
         <header>
             <div class="me">
                 <div class="logo">
-                    <h1>Ben Carey</h1>
-                </div>
-                <div class="contact">
-                    <h3>Contact Info</h3>
-                    <p>
-                        <span class="address">### ABC Ave.<br />
-                            Somecity, ST #####<br /></span>
-                        ###.###.####</br>
-                        <a href="mailto:dummy@dummy.com" target="_blank">dummy@dummy.com</a></br>
-                        <a href="https://bncarey42.github.io/" target="_blank">bncarey42.github.io</a>
-                    </p>
+                    <img src="https://avatars.githubusercontent.com/u/11987913?v=4" />
+                    <div class="text">
+                        <h1>Ben Carey</h1>
+                        <ul class="list-column links text-muted">
+                            <li>
+                                <a href="" target="_blank">
+                                    <i class="uil uil-house-user margin-right"></i> ### ABC Ave. Somecity, ST #####
+                                </a>
+                            </li>
+                            <li>
+                                <i class="uil uil-phone margin-right"></i> ###.###.####
+                            </li>
+                            <li>
+                                <a href="mailto:dummy@dummy.com" target="_blank">
+                                    <i class="uil uil-envelope-alt margin-right"></i> dummy@dummy.com
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="list-column links text-muted">
+                            <li>
+                                <a href="https://bncarey42.github.io/" target="_blank">
+                                    <i class="uil uil-globe margin-right"></i> bncarey42.github.io
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/bncarey42" target="_blank">
+                                    <i class="uil uil-github margin-right"></i> github.com/bncarey42
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/benjamintcarey/" target="_blank">
+                                    <i class="uil uil-linkedin margin-right"></i> linkedin.com/in/benjamintcarey
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
         <div class="experience">
-            <h3>Relevant Experience</h3>
+            <h2>Relevant Experience</h2>
             <ul>
-                <li class=" devjob">
-                    <h4>Senior Developer Associate I/II -
-                        The Boom Lab: July 2019 - Present</h4>
+                <li class="devjob">
+                    <h3>Senior Developer Associate I/II</h3>
+                    <h4 class="text-muted">The Boom Lab: July 2019 - Present</h4>
                     <ul>
                         <li>Provided full stack custom software solutions to the following clients:
-                            <h4>IT Developer I/II - 3M: July 2019 - June 2021</h4>
+                            <h3>IT Developer I/II</h3>
+                            <h4 class="text-muted"> 3M: July 2019 - June 2021</h4>
                             <ul class="duties">
                                 <li>
                                     <h5 class="devtech-header">Technologies Used</h5>
@@ -47,7 +74,7 @@
                                         <li><i class="uil uil-brackets-curly"></i> Elastic Search</li>
                                         <li><i class="devicon-apache-line colored"></i> Apache Spark</li>
                                         <li><i class="devicon-scala-plain colored"></i> Scala</li>
-                                        <li><i class="uil uil-database"></i> Terradata</li>
+                                        <li><i class="uil uil-database"></i> Teradata</li>
                                         <li><i class="devicon-mysql-plain colored"></i> MySql</li>
                                         <li><i class="devicon-microsoftsqlserver-plain colored"></i> MSSQL</li>
                                         <li><i class="devicon-linux-plain colored"></i> Linux</li>
@@ -57,18 +84,22 @@
                                         <li><i class="devicon-nginx-original colored"></i> Nginx</li>
                                     </ul>
                                 </li>
-                                <li>Designed and Built Front and Backend solutions to assist in the development of a data quality rules engine as part of a small team</li>
-                                <li>Authored and maintained end user documentation</li>
-                                <li>Provided consultation to project team leads on system design and architecture</li>
-                                <li>Designed and built database for data remediation </li>
+                                <li>Designed and Implemented front and backend additions and enhancements to internally
+                                    developed systems that assisted in the development of a rules engine to be used for
+                                    efforts in the data quality space. </li>
+                                <li>Liaised with end user clients to gather requirements and feedback on project status
+                                    and design </li>
+                                <li>Operated as members of small Agile team as one of two developers. </li>
+                                <li>Authored and maintained end user and developer documentation </li>
+                                <li>Provided consultation to project team leads on system design </li>
                             </ul>
                         </li>
                 </li>
             </ul>
             </li>
             <li class="devjob">
-                <h4>Application Developer -
-                    Securian Financial: June 2017 - July 2019</h4>
+                <h3>Application Developer</h3>
+                <h4 class="text-muted">Securian Financial: June 2017 - July 2019</h4>
                 <ul class="duties">
                     <li>
                         <h5 class="devtech-header">Technologies Used</h5>
@@ -83,28 +114,24 @@
                             <li><i class="uil uil-server-network"></i> Puppet</li>
                         </ul>
                     </li>
-                    <li>Designed new applications and enhancements to existing applications
-                        for internally developed systems, purchased software, and software
-                        solutions utilizing a number of technologies including but not limited to:
-                        Java Spring Batch, Batch scripting, Oracle SQL/MSSQL, IBM Mainframe JCL and PL/I</li>
-                    <li>Integrated external tools and systems into existing programs according
-                        to vendor specifications</li>
-                    <li>Provided direct support to business clients as well as oversaw the
-                        team backlog of system defects and sat as liaison to business unit on
-                        cross function team assigned to oversee defect backlog</li>
-                    <li>Was member of exploratory team researching integration of agile-scrum
-                        methodologies before full team conversion</li>
-                    <li>Participated in a number of legacy modernization projects converting
-                        Mainframe PL/I programs and data-sources to Java Spring-Batch and
-                        SQL/Oracle databases</li>
-                    <li>Began process of migrating source code from legacy version control
-                        system to git and GitHub Enterprise</li>
+                    <li>Designed new applications and enhancements to existing software for internally developed Java
+                        batch applications and web-services, and purchased software solutions in support of the
+                        Individual Annuity Division. </li>
+                    <li>Provided direct support to business clients as well as oversaw the team backlog of system
+                        defects and sat as liaison to business unit on cross function team assigned to oversee defect
+                        backlog </li>
+                    <li>Migrated source code from legacy version control system and deploy chain to git and GitHub,
+                        Jenkins, and Puppet </li>
+                    <li>Engaged in exploratory project piloting implementation of Agile methodologies</li>
+                    <li>Contributed to a number of legacy modernization projects converting Mainframe PL/I programs and
+                        data-sources to Java Spring-Batch and MSSQL/Oracle databases </li>
+                    <li> external tools and systems into existing programs according to vendor specifications </li>
 
                 </ul>
             </li>
-            <li >
-                <h4>Advanced Repair Agent -
-                    Best Buy - Geek Squad: October 2016 - June 2017</h4>
+            <li>
+                <h3>Advanced Repair Agent</h3>
+                <h4 class="text-muted">Best Buy - Geek Squad: October 2016 - June 2017</h4>
                 <ul class="duties">
                     <li>Following company standards performed computer repairs ranging
                         from simple hardware installation to virus removals and operating system repair</li>
@@ -116,9 +143,9 @@
                         not satisfied or did not understand the work performed</li>
                 </ul>
             </li>
-            <li >
-                <h4>Technical Education Agent -
-                    Best Buy - Geek Squad: September 2015 - November 2016</h4>
+            <li>
+                <h3>Technical Education Agent</h3>
+                <h4 class="text-muted">Best Buy - Geek Squad: September 2015 - November 2016</h4>
                 <ul class="duties">
                     <li>Provided clients with solutions to technical problems and questions and provided group and one
                         on one trainings in using a number of devices</li>
@@ -129,8 +156,8 @@
                 </ul>
             </li>
             <li class=" devjob">
-                <h4>Volunteer Specialist -
-                    Girl Scouts of Minnesota Wisconsin Lakes & Pines: November 2014 - September 2015
+                <h3>Volunteer Specialist</h3>
+                <h4 class="text-muted">Girl Scouts of Minnesota Wisconsin Lakes & Pines: November 2014 - September 2015
                 </h4>
                 <ul class="duties">
                     <li>
@@ -149,9 +176,10 @@
                     <li>Oversaw mediation of conflict between volunteers</li>
                 </ul>
             </li>
-            <li >
-                <h4> Fine Arts Programming Technical Assistant -
-                    College of Saint Benedict and Saint John’s University: August 2009 - December 2012</h4>
+            <li>
+                <h3> Fine Arts Programming Technical Assistant</h3>
+                <h4 class="text-muted">College of Saint Benedict and Saint John’s University: August 2009 - December
+                    2012</h4>
                 <ul class="duties">
                     <li>Facilitated sound and light board programming and operation</li>
                     <li>Managed performers and technical backstage staff during live performances and events as stage
@@ -162,18 +190,18 @@
             </ul>
         </div>
         <div class="experience">
-            <h3>Education</h3>
+            <h2>Education</h2>
             <ul>
-                <li >
-                    <h4>Saint Paul College - Saint Paul, Minnesota</h4>
-                    <h4>Associates of Applied Science: Computer Programming</h4>
+                <li>
+                    <h3>Associates of Applied Science: Computer Programming</h3>
+                    <h4 class="text-muted">Saint Paul College - Saint Paul, Minnesota</h4>
                     <p>Graduated: 2017</p>
                     <p>GPA: 3.7/4.0</p>
                     <p>Honors: Dean's List</p>
                 </li>
                 <li>
-                    <h4>Saint John's University - Collegeville, Minnesota</h4>
-                    <h4>Bachelor of Arts: Theology - Pastoral Studies</h4>
+                    <h3>Bachelor of Arts: Theology - Pastoral Studies</h3>
+                    <h4 class="text-muted">Saint John's University - Collegeville, Minnesota</h4>
                     <p>Graduated:May 2013</p>
                     <p>
                         Additional Activities: Men's Chorus, Opera Workshop, KJNB Campus Radio
@@ -181,11 +209,9 @@
                 </li>
             </ul>
         </div>
-
-        <div class="courses">
-            <h3>Courses in Computer Science and Programming</h3>
+        <div>
+            <h2>Courses in Computer Science and Programming</h2>
             <ul>
-
                 <li>CSCI 1410 Computer Science and Information Systems - Saint Paul College - Fall 2015</li>
                 <li>CSCI 1450 Web Fundamentals and HTML - Saint Paul College - Fall 2015</li>
 
@@ -202,17 +228,14 @@
                 <li>CSCI 2570 Machine Architecture and Organization - Saint Paul College - Spring 2017</li>
 
                 <li>CSCI 2442 Server Side Programming (PHP) - Saint Paul College - Fall 2017</li>
-
-
             </ul>
-
         </div>
         <div class="experience">
-            <h3>Other Experience</h3>
+            <h2>Other Experience</h2>
             <ul>
-                <li >
-                    <h4>Barista </br>
-                        Starbucks Coffee Company: March 2014 - November 2014</h4>
+                <li>
+                    <h3>Barista </h3>
+                    <h4 class="text-muted">Starbucks Coffee Company: March 2014 - November 2014</h4>
                     <ul>
                         <li>Prepared and served coffee and tea based drinks as well as food products according to
                             company practices and standards</li>
@@ -220,9 +243,9 @@
                         <li>Performed daily cleaning duties</li>
                     </ul>
                 </li>
-                <li >
-                    <h4>Volunteer Coordinator</br>
-                        Saint James Food Pantry: July 2013 - March 2014</h4>
+                <li>
+                    <h3>Volunteer Coordinator</h3>
+                    <h4 class="text-muted">Saint James Food Pantry: July 2013 - March 2014</h4>
                     <ul>
                         <li>Recruited, trained, and coordinated the daily activities of a weekly average of 60
                             volunteers in food pantry in addition to larger weekend events averaging around 75
@@ -233,9 +256,9 @@
                             advertisements for weekly publication</li>
                     </ul>
                 </li>
-                <li >
-                    <h4>Summer Totus Tuus Teacher -
-                        Diocese of Sioux City: May 2012 - July 2012</h4>
+                <li>
+                    <h3>Summer Totus Tuus Teacher</h3>
+                    <h4 class="text-muted">Diocese of Sioux City: May 2012 - July 2012</h4>
                     <ul>
                         <li>Led youth in grades 1-12 in classes and activities centered in Catholic theology while
                             traveling from parish to parish throughout northwestern Iowa</li>
@@ -246,9 +269,9 @@
                         </li>
                     </ul>
                 </li>
-                <li >
-                    <h4>Undergraduate Pastoral Ministry Intern<br>
-                        Saint Peter and Saint Paul's Catholic Churches: January 2013 - May 2013</h4>
+                <li>
+                    <h3>Undergraduate Pastoral Ministry Intern</h3>
+                    <h4 class="text-muted">Saint Peter and Saint Paul's Catholic Churches: January 2013 - May 2013</h4>
                     <ul>
                         <li>Planned and led classes for youth in grades 2-12</li>
                         <li>Planned and led liturgies and retreats. Directed youth and children's choirs</li>
@@ -262,9 +285,10 @@
 </body>
 <style>
     :root {
-        --main-text: #1e272e;
-        --header: #1b3e28;
-        --links: #4a7955;
+        --main-text: #0c1f23;
+        --muted: #797b7a;
+        --accent: #1e5b53;
+        --links: #2b5263;
         --font: 'Lato', sans-serif
     }
 
@@ -274,7 +298,7 @@
     }
 
     a {
-        color: var(--main-text);
+        color: var(--links);
         text-decoration: none;
     }
 
@@ -287,15 +311,8 @@
         display: flex;
     }
 
-    header a {
-        text-decoration: none;
-    }
-
-    header h1 {
-        color: var(--main-text);
-        font-size: 55px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+    .margin-right {
+        margin-right: 0.1rem;
     }
 
     .me {
@@ -304,28 +321,39 @@
         width: 100%;
     }
 
-    .logo {
+    .me a {
+        color: var(--muted);
+    }
+
+    .me .logo img {
+        margin-right: 0.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 106px;
+        border-radius: 50%;
+    }
+
+    .me .logo {
+        display: inline-flex;
         justify-content: start;
         text-align: left;
     }
 
-    .contact {
-        justify-content: end;
-        text-align: right;
-    }
-
-    .contact h3 {
+    .me .logo .text h1 {
+        color: var(--main-text);
+        font-size: 55px;
         margin-top: 0px;
         margin-bottom: 0px;
-        font-size: 14px;
-        margin-bottom: -4px;
-        color: var(--header);
     }
 
-    .contact h4 {
-        margin-bottom: 0px;
-        font-size: 12px;
-        margin-top: 2px;
+    .me .logo .text .links {
+        height: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .me .logo .text .links li {
+        margin-right: 0.5rem;
     }
 
     /* BODY */
@@ -335,22 +363,21 @@
         font-size: 11px;
     }
 
-    .wrapper h3 {
+    .wrapper h2 {
         /*margin-top: 0px;*/
         margin-bottom: 0px;
         font-size: 14px;
         margin-bottom: -4px;
-        color: var(--header);
+        color: var(--accent);
+    }
+
+    .wrapper h3 {
+        margin-top: 0.25rem;
+        margin-bottom: 0;
     }
 
     .wrapper h4 {
-        margin-bottom: 0px;
-        font-size: 12px;
-        margin-top: 2px;
-    }
-
-    .contact a {
-        color: var(--main-text);
+        margin: 0;
     }
 
     .wrapper p {
@@ -358,13 +385,14 @@
         margin-bottom: 1px;
     }
 
-    .experience > ul > li {
+    .experience>ul>li {
         list-style: none;
     }
 
-    .duties li {
+    .devjob .duties li {
         list-style-type: circle;
     }
+
     .devjob .duties li:first-child {
         list-style: none;
     }
@@ -372,21 +400,28 @@
     .devtech-header {
         margin: 5px;
     }
-    
-    .education span {
-        display: inline-flex;
+
+    .text-dark {
+        color: var(--main-text) !important;
+    }
+
+    .text-muted {
+        color: var(--muted) !important;
+    }
+
+    .text-accent {
+        color: var(--accent) !important;
     }
 
     .list-column {
         height: 1.5rem;
-
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
     .list-column li {
-        list-style: none;
+        list-style: none !important;
     }
 </style>
 
