@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "my resume in js format",
+  "main": "resume.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bncarey42/resume.git"
+  },
+  "author": "bncarey42",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bncarey42/resume/issues"
+  },
+  "homepage": "https://github.com/bncarey42/resume#readme",
+  "dependencies": {
+    "@iconscout/unicons": "^4.0.0",
+    "devicon": "^2.12.0"
+  }
+}
