@@ -94,7 +94,7 @@ As a Geek Squad Repair Agent performed hardware and software support for client 
 
 ### September 2015 - Jan 2017
 
-Role Overview: As a Geek Squad Technical Education Agent provided technical training to clients in class and one-on-one settings as well mentorship to Best Buy floor sales associates on solutions offered by Geek Squad to enable sales of Geek Squad services.  
+As a Geek Squad Technical Education Agent provided technical training to clients in class and one-on-one settings as well mentorship to Best Buy floor sales associates on solutions offered by Geek Squad to enable sales of Geek Squad services.  
 
 - Provided group and one on one training on the use of a number of devices.
 
