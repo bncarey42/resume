@@ -1,2 +1,3 @@
 # Resume
-Back up of my resume without contact info
+
+Here can be found my resume in three formats: markdown, json, and html.

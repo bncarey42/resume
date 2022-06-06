@@ -1,0 +1,400 @@
+{
+"education": [
+{
+"school": "Saint Paul College",
+"website": "",
+"city": "Saint Paul, Minnesota",
+"degree": "Associates of Applied Science: Computer Programming",
+"yearGraduated": "2017",
+"extra": [
+"GPA: 3.7/4.0",
+"Honors: Dean's List"
+],
+"courses": [
+{
+"title": "CSCI 1410 Computer Science and Information Systems - Saint Paul College",
+"semester": "Fall 2015"
+},
+{
+"title": "CSCI 1450 Web Fundamentals and HTML - Saint Paul College",
+"semester": "Fall 2015"
+},
+{
+"title": "CSCI 1523 Intro to Computing and Programming Concepts - Saint Paul College",
+"semester": "Spring 2016"
+},
+{
+"title": "CSCI 1533 ANSI C Language Programming - Saint Paul College",
+"semester": "Spring 2016"
+},
+{
+"title": "CSCI 1541 Java Programming 1 - Saint Paul College",
+"semester": "Spring 2016"
+},
+{
+"title": "CSCI 1542 Java Programming 2 - Saint Paul College",
+"semester": "Fall 2016"
+},
+{
+"title": "CSCI 1550 Database Management Fundamentals - Saint Paul College",
+"semester": "Fall 2016"
+},
+{
+"title": "CSCI 2466 J2EE-JSP & Servlets - Saint Paul College",
+"semester": "Fall 2016"
+},
+{
+"title": "CSCI 1423 Computer Networking 1 (Linux and Windows 7) - Saint Paul College",
+"semester": "Spring 2017"
+},
+{
+"title": "CSCI 1524 Introduction to Algorithms and Data Structures - Saint Paul College",
+"semester": "Spring 2017"
+},
+{
+"title": "CSCI 2570 Machine Architecture and Organization - Saint Paul College",
+"semester": "Spring 2017"
+},
+{
+"title": "CSCI 2442 Server Side Programming (PHP) - Saint Paul College",
+"semester": "Fall 2017"
+}
+]
+},
+{
+"school": "Saint John's University",
+"city": "Collegeville, Minnesota",
+"website": "https://csbsju.edu",
+"degree": "Bachelor of Arts: Theology - Pastoral Studies",
+"yearGraduated": "2013",
+"extra": [
+"Additional Activities: Men's Chorus, Opera Workshop, KJNB Campus Radio"
+]
+}
+],
+"work": [
+{
+"icon": "https://media-exp1.licdn.com/dms/image/C4E0BAQGLoIAFQRuUjw/company-logo_200_200/0/1622559789167?e=1632355200&v=beta&t=KQt3Spubal26ag5GstSL9snIdiPSTXji-sj7ZWbCtBI",
+"employer": "The Boom Lab",
+"startDate": "July 2019",
+"endDate": "Present",
+"tech": true,
+"roles": [
+{
+"icon": "https://media-exp1.licdn.com/dms/image/C4E0BAQGm7FwJrD5YsA/company-logo_200_200/0/1622559562909?e=1632355200&v=beta&t=i9dACmPPZp01X0RgX5Jsm-fausDGDvfIMKuXyvxZNnI",
+"title": "Senoir Developer Associate II",
+"startDate": "July 2019",
+"endDate": "Present",
+"duties": [],
+"technologies": [
+{
+"icon": "",
+"title": "AWS"
+},
+{
+"icon": "",
+"title": "Terraform"
+},
+{
+"icon": "",
+"title": "Python"
+}
+]
+},
+{
+"icon": "https://media-exp1.licdn.com/dms/image/C4E0BAQEsMlsSfzuADQ/company-logo_200_200/0/1554498411479?e=1632355200&v=beta&t=AdKQyq2BX8fY6lcFldQ80jdvD8Vyqroua4We6H7JPEY",
+"title": "3M - IT Developer II",
+"startDate": "July 2019",
+"endDate": "June 2021",
+"duties": [
+"Designed and Implemented front and backend additions and enhancements to internally developed systems that assisted in the development of a rules engine to be used for efforts in the data quality space.",
+"Implemented enhancements to Apache Spark ETL process to populate ElasticSearch pulling data from source systems.",
+"Liaised with end user clients to gather requirements and feedback on project status and design.",
+"Authored and maintained end user and developer documentation.",
+"Provided consultation to project team leads on system design and project direction."
+],
+"technologies": [
+{
+"title": "PHP",
+"icon": "devicon-php-plain colored"
+},
+{
+"title": "Laravel",
+"icon": "devicon-laravel-plain colored"
+},
+{
+"title": "Vue.js",
+"icon": "devicon-vuejs-plain colored"
+},
+{
+"title": "Elastic Search",
+"icon": "uil uil-brackets-curly"
+},
+{
+"title": "Apache Spark",
+"icon": "devicon-apache-line colored"
+},
+{
+"title": "Scala",
+"icon": "devicon-scala-plain colored"
+},
+{
+"title": "Teradata",
+"icon": "uil uil-database"
+},
+{
+"title": "MySql",
+"icon": "devicon-mysql-plain colored"
+},
+{
+"title": "MSSQL",
+"icon": "devicon-microsoftsqlserver-plain colored"
+},
+{
+"title": "Linux",
+"icon": "devicon-linux-plain colored"
+},
+{
+"title": "Git/GitHub",
+"icon": "devicon-github-original colored"
+},
+{
+"title": "Redis",
+"icon": "devicon-redis-plain colored"
+},
+{
+"title": "Composer",
+"icon": "devicon-composer-line colored"
+},
+{
+"title": "Nginx",
+"icon": "devicon-nginx-original colored"
+}
+]
+}
+]
+},
+{
+"icon": "",
+"employer": "Securian",
+"startDate": "June 2017",
+"endDate": "July 2019",
+"tech": true,
+"roles": [
+{
+"icon": "",
+"title": "Associat Application Analist",
+"startDate": "June 2017",
+"endDate": "July 2019",
+"duties": [
+"Designed and Developed new applications and enhancements to existing software for internally developed Java batch applications and web-services, and purchased software solutions in support of the Individual Annuity Division.",
+"Provided direct support to business clients as well as oversaw the team backlog of system defects and sat as liaison to business unit on cross function team assigned to oversee defect backlog. ",
+"Migrated source code from legacy version control system and deploy chain to git and GitHub, Jenkins, and Puppet. ",
+"Engaged in exploratory project piloting implementation of Agile methodologies.",
+"Contributed to a number of legacy modernization projects converting Mainframe PL/I programs and data-sources to Java Spring-Batch and MSSQL/Oracle databases. ",
+"Integrated external tools and systems into existing programs according to vendor specifications. "
+],
+"technologies": [
+{
+"icon": "devicon-java-plain colored",
+"title": "Java"
+},
+{
+"icon": "devicon-spring-plain colored",
+"title": "Spring (Batch, Web)"
+},
+{
+"icon": "devicon-gradle-plain colored",
+"title": "Gradle"
+},
+{
+"icon": "devicon-microsoftsqlserver-plain colored",
+"title": "MSSQL"
+},
+{
+"icon": "devicon-oracle-original colored",
+"title": "Oracle DB"
+},
+{
+"icon": "devicon-github-original colored",
+"title": "Git/GitHub"
+},
+{
+"icon": "devicon-jenkins-plain colored",
+"title": "Jenkins"
+},
+{
+"icon": "uil uil-server-network",
+"title": "Puppet"
+}
+]
+}
+]
+},
+{
+"icon": "",
+"employer": "Best Buy - Geek Squad",
+"startDate": "September 2015",
+"endDate": "June 2017",
+"tech": true,
+"roles": [
+{
+"icon": "",
+"title": "Advanced Repair Agent",
+"startDate": "October 2016",
+"endDate": "June 2017",
+"duties": [
+"Following company standards performed computer repairs ranging from simple hardware installation to virus removals and operating system repair.",
+"Managed client personal data, transferring or backing up requested photos, documents, music, videos, and program files.",
+"Performed initial diagnostic of devices, restoring of returned devices and setting up new devices per client specifications.",
+"Addressed client de-escalation and expectations when clients were not satisfied or did not understand the work performed."
+],
+"technologies": []
+},
+{
+"icon": "",
+"title": "Technical Education Agent",
+"startDate": "September 2015",
+"endDate": "November 2016",
+"duties": [
+"Provided clients with solutions to technical problems and questions and provided group and one on one trainings in using a number of devices.",
+"Educated and provided clients with product solutions to technical needs in the areas of the Internet of Things and in home and small business networking.",
+"Coached sales associates in how to offer a full solution to clients needs when purchasing new technologies."
+],
+"technologies": []
+}
+]
+},
+{
+"icon": "",
+"employer": "The Girl Scouts of Minnesota/Wisconsin Lake and Pines",
+"startDate": "June 2017",
+"endDate": "September 2015",
+"tech": true,
+"roles": [
+{
+"icon": "",
+"title": "",
+"startDate": "",
+"endDate": "",
+"duties": [
+"Designed and delivered new troop leaders training including design and development of new online training systems.",
+"Developed new data tracking methods to ensure volunteers were current on all required trainings and paperwork.",
+"Oversaw the training and retention of 800+ volunteers across central Minnesota.",
+"Oversaw mediation of conflict between volunteers."
+],
+"technologies": [
+{
+"icon": "devicon-html5-plain-wordmark colored",
+"title": "HTML"
+},
+{
+"icon": "devicon-css3-plain-wordmark colored",
+"title": "CSS"
+},
+{
+"icon": "devicon-javascript-plain colored",
+"title": "JavaScript"
+}
+]
+}
+]
+},
+{
+"icon": "",
+"employer": "Starbucks Coffee Company",
+"startDate": "March 2014",
+"endDate": "November 2014",
+"roles": [
+{
+"icon": "",
+"title": "Barista",
+"startDate": "",
+"endDate": "",
+"duties": [
+"Prepared and served coffee and tea based drinks as well as food products according to company practices and standards.",
+"Ensure that products meet customer and company standards.",
+"Performed daily cleaning duties."
+]
+}
+]
+},
+{
+"icon": "",
+"employer": "Saint James Food Pantry",
+"startDate": "July 2013",
+"endDate": "March 2014",
+"roles": [
+{
+"title": "Volunteer Coordinator",
+"startDate": "",
+"endDate": "",
+"duties": [
+"Recruited, trained, and coordinated the daily activities of a weekly average of 60 volunteers in food pantry in addition to larger weekend events averaging around 75 volunteers.",
+"Organized volunteer records and developed new methods of organizing and accessing volunteer data.",
+"Manage pantry social media pages including Facebook and YouTube. Wrote articles and designed advertisements for weekly publication."
+]
+}
+]
+},
+{
+"icon": "",
+"employer": "Diocese of Sioux City",
+"startDate": "May 2012",
+"endDate": "July 2012",
+"roles": [
+{
+"title": "Summer Totus Tuus Teacher",
+"duties": [
+"Led youth in grades 1-12 in classes and activities centered in Catholic theology while traveling from parish to parish throughout northwestern Iowa.",
+"Prepared and taught lessons to different age groups of children and adolescents.",
+"Provided musical accompanied and led student musicians and congregation at daily youth planned and lead liturgies.",
+"Wrote and performed various skits and songs to teach students and garner their attention."
+]
+}
+]
+},
+{
+"icon": "",
+"employer": "Saint Peter and Saint Paul's Catholic Churches",
+"startDate": "January 2013",
+"endDate": "May 2013",
+"roles": [
+{
+"icon": "",
+"title": "Pastoral Ministry Intern",
+"startDate": "January 2013",
+"endDate": "May 2013",
+"duties": [
+"Planned and led classes for youth in grades 2-12.",
+"Planned and led liturgies and retreats. Directed youth and children's choirs.",
+"Recruited youth and adult volunteers. Promoted upcoming events and programs.",
+"Oversaw the process of establishing a more active youth ministry program."
+],
+"technologies": []
+}
+]
+},
+{
+"icon": "",
+"employer": "College of Saint Benedict and Saint John’s University",
+"startDate": "August 2009",
+"endDate": "December 2012",
+"tech": true,
+"roles": [
+{
+"icon": "",
+"title": "Fine Arts Programming Technical Assistant",
+"startDate": "",
+"endDate": "",
+"duties": [
+"Facilitated sound and light board programming and operation.",
+"Managed performers and technical backstage staff during live performances and events as stage manager.",
+"Constructed stage sets and props for theater and fine art performances."
+],
+"technologies": []
+}
+]
+}
+]
+}
