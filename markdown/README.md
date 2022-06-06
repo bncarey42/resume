@@ -2,7 +2,7 @@
 
 ### University of St. Thomas Law School - through Turnberry Crew
 
-### October 2021 – May 2022
+#### October 2021 – May 2022
 
 Built a platform to allow law school professors to partner students with mentors based on student and mentor input as well as manage time entry for students’ fieldwork. Designed and implemented Python code in an AWS serverless architecture as well as provided fullstack and infrastructure development support to the rest of the development team.
 
