@@ -94,105 +94,6 @@
       "roles": [
         {
           "icon": null,
-          "title": "University of Saint Thomas Law School - Back End Developer",
-          "startDate": "October 2021",
-          "endDate": "May 2022",
-          "description": "Built a platform to allow law school professors to partner students with mentors based on student and mentor input as well as manage time entry for students’ fieldwork. Designed and implemented Python code in an AWS serverless architecture as well as provided fullstack and infrastructure development support to the rest of the development team.",
-          "duties": [
-            "Designed a framework for routing event-based traffic within AWS Lambda and managing data model mapping which formed the basis for project's API.",
-            "Designed and developed new MySQL Database in AWS Aurora and built version control and management SQL scripts for use in FlywayDB.",
-            "Built end to end tests run in AWS Build Pipelines to test front and backend code as well as the integration between them in Postman and Cypress.",
-            "Implemented Bash scripts, Docker Compose configurations, and used AWS SAM framework to improve developer workflow and facilitate ease of local development.",
-            "Provided full stack development support and assistance with building functionality, interfaces, and infrastructure in Python, SQL Alchemy, JavaScript, Vue.js, TailwindCSS, and Terraform.",
-            "Lead and participated in code reviews and assisted other developers in pair programming and debugging code.",
-            "Mentored junior developers on project team"
-          ],
-          "technologies": [
-            { "icon": "devicon-python-plain colored", "title": "Python" },
-            {
-              "icon": "devicon-amazonwebservices-plain-wordmark colored",
-              "title": "AWS"
-            },
-            {
-              "title": "MySql",
-              "icon": "devicon-mysql-plain colored"
-            },
-            { "icon": null, "title": "FlywayDB" },
-            {
-              "title": "Vue.js",
-              "icon": "devicon-vuejs-plain colored"
-            },
-            {
-              "icon": "devicon-sqlalchemy-original-wordmark colored",
-              "title": "SQL Alchemy"
-            },
-            {
-              "icon": "devicon-tailwindcss-original-wordmark colored",
-              "title": "TailwindCSS"
-            },
-            {
-              "icon": "devicon-terraform-plain-wordmark colored",
-              "title": "Terraform"
-            },
-            { "icon": "devicon-bash-plain colored", "title": "Bash" },
-            {
-              "icon": "devicon-docker-plain colored",
-              "title": "Docker / Docker Compose"
-            },
-            { "icon": null, "title": "Cypress" },
-            {
-              "icon": "devicon-git-plain colored",
-              "title": "git"
-            },
-            {
-              "icon": "devicon-jetbrains-plain colored",
-              "title": "JetBrains (Pycharm, WebStorm, IntelliJ, DataGrip)"
-            }
-          ]
-        },
-        {
-          "icon": null,
-          "title": "Developer, Internal Reporting Projects",
-          "startDate": "June 2021",
-          "endDate": "October 2021",
-          "description": "Built data pipelines in an AWS serverless architecture to provide feedback on project statuses and consultant performance and availability to key Turnberry stakeholders.",
-          "duties": [
-            "Developed Python code for AWS Lambda to pull data from multiple sources to centralized datastores, including SMS, S3 and MySQL in AWS Aurora, and to create and deliver reports to Turnberry stakeholders.",
-            "Built cloud infrastructure in Terraform to build resilient, event driven, data pipelines.",
-            "Trained and mentored junior developers."
-          ],
-          "technologies": [
-            { "icon": "devicon-python-plain colored", "title": "Python" },
-            {
-              "icon": "devicon-amazonwebservices-plain-wordmark colored",
-              "title": "AWS"
-            },
-            {
-              "title": "MySql",
-              "icon": "devicon-mysql-plain colored"
-            },
-            { "title": "FlywayDB" },
-            {
-              "icon": "devicon-terraform-plain-wordmark colored",
-              "title": "Terraform"
-            },
-            {
-              "icon": "devicon-sqlalchemy-original-wordmark colored",
-              "title": "SQL Alchemy"
-            },
-            { "icon": "devicon-bash-plain colored", "title": "Bash" },
-            {
-              "icon": "devicon-git-plain colored",
-              "title": "git"
-            },
-            {
-              "icon": "devicon-jetbrains-plain colored",
-              "title": "JetBrains (Pycharm, IntelliJ, DataGrip)"
-            }
-          ]
-        },
-        {
-          "icon": null,
           "title": "Senoir Developer Associate I-II",
           "startDate": "July 2019",
           "endDate": "April 2022",
@@ -203,92 +104,193 @@
               "icon": "devicon-go-original-wordmark colored",
               "title": "Golang"
             }
-          ]
-        },
-        {
-          "icon": null,
-          "title": "3M - IT Developer II",
-          "startDate": "July 2019",
-          "endDate": "June 2021",
-          "description": "Designed and implemented front and back-end additions and enhancements to internally developed systems that assisted in the development of a rules engine which allowed business users the ability to author customizable rules to evaluate the quality of data reported to regulatory organizations.",
-          "duties": [
-            "Built code using PHP, Laravel, JavaScript, and Vue.js into an existing system that utilized a shunting yard algorithm to execute user defined functions on data stored in an Elasticsearch cluster.",
-            "Implemented enhancements to Apache Spark ETL process in Scala pulling data from source systems, primarily housed in Taradata, to populate an Elasticsearch cluster.",
-            "Liaised with business users to gather requirements and feedback on project status and design.",
-            "Authored and maintained end user and developer documentation.",
-            "Provided consultation to project team leads on system design and project direction."
           ],
-          "technologies": [
+          "projects": [
             {
-              "title": "PHP",
-              "icon": "devicon-php-plain colored"
+              "icon": null,
+              "title": "University of Saint Thomas Law School - Back End Developer",
+              "startDate": "October 2021",
+              "endDate": "May 2022",
+              "description": "Built a platform to allow law school professors to partner students with mentors based on student and mentor input as well as manage time entry for students’ fieldwork. Designed and implemented Python code in an AWS serverless architecture as well as provided fullstack and infrastructure development support to the rest of the development team.",
+              "duties": [
+                "Designed a framework for routing event-based traffic within AWS Lambda and managing data model mapping which formed the basis for project's API.",
+                "Designed and developed new MySQL Database in AWS Aurora and built version control and management SQL scripts for use in FlywayDB.",
+                "Built end to end tests run in AWS Build Pipelines to test front and backend code as well as the integration between them in Postman and Cypress.",
+                "Implemented Bash scripts, Docker Compose configurations, and used AWS SAM framework to improve developer workflow and facilitate ease of local development.",
+                "Provided full stack development support and assistance with building functionality, interfaces, and infrastructure in Python, SQL Alchemy, JavaScript, Vue.js, TailwindCSS, and Terraform.",
+                "Lead and participated in code reviews and assisted other developers in pair programming and debugging code.",
+                "Mentored junior developers on project team"
+              ],
+              "technologies": [
+                { "icon": "devicon-python-plain colored", "title": "Python" },
+                {
+                  "icon": "devicon-amazonwebservices-plain-wordmark colored",
+                  "title": "AWS"
+                },
+                {
+                  "title": "MySql",
+                  "icon": "devicon-mysql-plain colored"
+                },
+                { "icon": null, "title": "FlywayDB" },
+                {
+                  "title": "Vue.js",
+                  "icon": "devicon-vuejs-plain colored"
+                },
+                {
+                  "icon": "devicon-sqlalchemy-original-wordmark colored",
+                  "title": "SQL Alchemy"
+                },
+                {
+                  "icon": "devicon-tailwindcss-original-wordmark colored",
+                  "title": "TailwindCSS"
+                },
+                {
+                  "icon": "devicon-terraform-plain-wordmark colored",
+                  "title": "Terraform"
+                },
+                { "icon": "devicon-bash-plain colored", "title": "Bash" },
+                {
+                  "icon": "devicon-docker-plain colored",
+                  "title": "Docker / Docker Compose"
+                },
+                { "icon": null, "title": "Cypress" },
+                {
+                  "icon": "devicon-git-plain colored",
+                  "title": "git"
+                },
+                {
+                  "icon": "devicon-jetbrains-plain colored",
+                  "title": "JetBrains (Pycharm, WebStorm, IntelliJ, DataGrip)"
+                }
+              ]
             },
             {
-              "title": "Laravel",
-              "icon": "devicon-laravel-plain colored"
+              "icon": null,
+              "title": "Developer, Internal Reporting Projects",
+              "startDate": "June 2021",
+              "endDate": "October 2021",
+              "description": "Built data pipelines in an AWS serverless architecture to provide feedback on project statuses and consultant performance and availability to key Turnberry stakeholders.",
+              "duties": [
+                "Developed Python code for AWS Lambda to pull data from multiple sources to centralized datastores, including SMS, S3 and MySQL in AWS Aurora, and to create and deliver reports to Turnberry stakeholders.",
+                "Built cloud infrastructure in Terraform to build resilient, event driven, data pipelines.",
+                "Trained and mentored junior developers."
+              ],
+              "technologies": [
+                { "icon": "devicon-python-plain colored", "title": "Python" },
+                {
+                  "icon": "devicon-amazonwebservices-plain-wordmark colored",
+                  "title": "AWS"
+                },
+                {
+                  "title": "MySql",
+                  "icon": "devicon-mysql-plain colored"
+                },
+                { "title": "FlywayDB" },
+                {
+                  "icon": "devicon-terraform-plain-wordmark colored",
+                  "title": "Terraform"
+                },
+                {
+                  "icon": "devicon-sqlalchemy-original-wordmark colored",
+                  "title": "SQL Alchemy"
+                },
+                { "icon": "devicon-bash-plain colored", "title": "Bash" },
+                {
+                  "icon": "devicon-git-plain colored",
+                  "title": "git"
+                },
+                {
+                  "icon": "devicon-jetbrains-plain colored",
+                  "title": "JetBrains (Pycharm, IntelliJ, DataGrip)"
+                }
+              ]
             },
             {
-              "title": "Vue.js",
-              "icon": "devicon-vuejs-plain colored"
-            },
-            {
-              "icon": "devicon-bootstrap-plain-wordmark colored",
-              "title": "Bootstrap"
-            },
-            {
-              "title": "Elastic Search",
-              "icon": "uil uil-brackets-curly"
-            },
-            {
-              "title": "Apache Spark",
-              "icon": "devicon-apache-line colored"
-            },
-            {
-              "title": "Scala",
-              "icon": "devicon-scala-plain colored"
-            },
-            {
-              "title": "Teradata",
-              "icon": "uil uil-database"
-            },
-            {
-              "title": "MySql",
-              "icon": "devicon-mysql-plain colored"
-            },
-            {
-              "title": "MSSQL",
-              "icon": "devicon-microsoftsqlserver-plain colored"
-            },
-            {
-              "title": "Linux",
-              "icon": "devicon-linux-plain colored"
-            },
-            {
-              "icon": "devicon-github-original colored",
-              "title": "GitHub"
-            },
-            {
-              "icon": "devicon-git-plain colored",
-              "title": "git"
-            },
-            {
-              "title": "Redis",
-              "icon": "devicon-redis-plain colored"
-            },
-            {
-              "title": "Composer",
-              "icon": "devicon-composer-line colored"
-            },
-            {
-              "title": "Nginx",
-              "icon": "devicon-nginx-original colored"
-            },
-            {
-              "icon": "devicon-jetbrains-plain colored",
-              "title": "JetBrains (PHPStorm, IntelliJ, DataGrip)"
+              "icon": null,
+              "title": "3M - IT Developer II",
+              "startDate": "July 2019",
+              "endDate": "June 2021",
+              "description": "Designed and implemented front and back-end additions and enhancements to internally developed systems that assisted in the development of a rules engine which allowed business users the ability to author customizable rules to evaluate the quality of data reported to regulatory organizations.",
+              "duties": [
+                "Built code using PHP, Laravel, JavaScript, and Vue.js into an existing system that utilized a shunting yard algorithm to execute user defined functions on data stored in an Elasticsearch cluster.",
+                "Implemented enhancements to Apache Spark ETL process in Scala pulling data from source systems, primarily housed in Taradata, to populate an Elasticsearch cluster.",
+                "Liaised with business users to gather requirements and feedback on project status and design.",
+                "Authored and maintained end user and developer documentation.",
+                "Provided consultation to project team leads on system design and project direction."
+              ],
+              "technologies": [
+                {
+                  "title": "PHP",
+                  "icon": "devicon-php-plain colored"
+                },
+                {
+                  "title": "Laravel",
+                  "icon": "devicon-laravel-plain colored"
+                },
+                {
+                  "title": "Vue.js",
+                  "icon": "devicon-vuejs-plain colored"
+                },
+                {
+                  "icon": "devicon-bootstrap-plain-wordmark colored",
+                  "title": "Bootstrap"
+                },
+                {
+                  "title": "Elastic Search",
+                  "icon": "uil uil-brackets-curly"
+                },
+                {
+                  "title": "Apache Spark",
+                  "icon": "devicon-apache-line colored"
+                },
+                {
+                  "title": "Scala",
+                  "icon": "devicon-scala-plain colored"
+                },
+                {
+                  "title": "Teradata",
+                  "icon": "uil uil-database"
+                },
+                {
+                  "title": "MySql",
+                  "icon": "devicon-mysql-plain colored"
+                },
+                {
+                  "title": "MSSQL",
+                  "icon": "devicon-microsoftsqlserver-plain colored"
+                },
+                {
+                  "title": "Linux",
+                  "icon": "devicon-linux-plain colored"
+                },
+                {
+                  "icon": "devicon-github-original colored",
+                  "title": "GitHub"
+                },
+                {
+                  "icon": "devicon-git-plain colored",
+                  "title": "git"
+                },
+                {
+                  "title": "Redis",
+                  "icon": "devicon-redis-plain colored"
+                },
+                {
+                  "title": "Composer",
+                  "icon": "devicon-composer-line colored"
+                },
+                {
+                  "title": "Nginx",
+                  "icon": "devicon-nginx-original colored"
+                },
+                {
+                  "icon": "devicon-jetbrains-plain colored",
+                  "title": "JetBrains (PHPStorm, IntelliJ, DataGrip)"
+                }
+              ]
             }
           ]
-        }
+        },
       ]
     },
     {
