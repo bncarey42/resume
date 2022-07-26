@@ -151,7 +151,7 @@
                   "icon": "devicon-docker-plain colored",
                   "title": "Docker / Docker Compose"
                 },
-                { "title": "Cypress" },
+                { "icon": "uil uil-brackets-curly", "title": "Cypress" },
                 {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
