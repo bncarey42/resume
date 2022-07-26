@@ -163,12 +163,13 @@
               ]
             },
             {
-              "title": "Internal Reporting Projects - Developer",
+              "title": "ETL and Reporting Projects - Developer",
               "startDate": "June 2021",
               "endDate": "October 2021",
               "description": "Built data pipelines in an AWS serverless architecture to provide feedback on project statuses and consultant performance and availability to key Turnberry stakeholders.",
               "duties": [
-                "Developed Python code for AWS Lambda to pull data from multiple sources to centralized datastores, including SMS, S3 and MySQL in AWS Aurora, and to create and deliver reports to Turnberry stakeholders.",
+                "Developed ETL in AWS Lambda to pull data from multiple internal and external sources to centralized datastores, including S3 and MySQL in AWS Aurora",
+                "Built reporting pipeline to deliver data to key stakeholders and company leadership via PowerBI and SMS emails", 
                 "Built cloud infrastructure in Terraform to build resilient, event driven, data pipelines.",
                 "Trained and mentored junior developers."
               ],
