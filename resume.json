@@ -235,7 +235,7 @@
                 },
                 {
                   "title": "Elastic Search",
-                  "icon": "uil uil-brackets-curly"
+                  "icon": "fa-solid fa-brackets-curly"
                 },
                 {
                   "title": "Apache Spark",
@@ -247,7 +247,7 @@
                 },
                 {
                   "title": "Teradata",
-                  "icon": "uil uil-database"
+                  "icon": "fa-solid fa-database",
                 },
                 {
                   "title": "MySql",
