@@ -158,7 +158,7 @@
                 },
                 {
                   "icon": "devicon-jetbrains-plain colored",
-                  "title": "JetBrains\n(Pycharm, WebStorm, IntelliJ, DataGrip)"
+                  "title": "JetBrains IDE's"
                 }
               ]
             },
@@ -199,7 +199,7 @@
                 },
                 {
                   "icon": "devicon-jetbrains-plain colored",
-                  "title": "JetBrains (Pycharm, IntelliJ, DataGrip)"
+                  "title": "JetBrains IDE's"
                 }
               ]
             },
@@ -283,7 +283,7 @@
                 },
                 {
                   "icon": "devicon-jetbrains-plain colored",
-                  "title": "JetBrains\n(PHPStorm, IntelliJ, DataGrip)"
+                  "title": "JetBrains IDE's"
                 }
               ]
             }
