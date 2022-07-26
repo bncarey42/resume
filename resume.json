@@ -247,7 +247,7 @@
                 },
                 {
                   "title": "Teradata",
-                  "icon": "fa-solid fa-database",
+                  "icon": "fa-solid fa-database"
                 },
                 {
                   "title": "MySql",
