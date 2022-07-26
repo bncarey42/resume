@@ -129,7 +129,7 @@
                   "title": "MySql",
                   "icon": "devicon-mysql-plain colored"
                 },
-                {  "icon": "fa-solid fa-database","title": "FlywayDB" },
+                {  "icon": "uil uil-database","title": "FlywayDB" },
                 {
                   "title": "Vue.js",
                   "icon": "devicon-vuejs-plain colored"
@@ -183,7 +183,7 @@
                   "title": "MySql",
                   "icon": "devicon-mysql-plain colored"
                 },
-                { "icon": "fa-solid fa-database", "title": "FlywayDB" },
+                { "icon": "uil uil-database", "title": "FlywayDB" },
                 {
                   "icon": "devicon-terraform-plain-wordmark colored",
                   "title": "Terraform"
@@ -235,7 +235,7 @@
                 },
                 {
                   "title": "Elastic Search",
-                  "icon": "fa-solid fa-brackets-curly"
+                  "icon": "uil uil-brackets-curly"
                 },
                 {
                   "title": "Apache Spark",
@@ -247,7 +247,7 @@
                 },
                 {
                   "title": "Teradata",
-                  "icon": "fa-solid fa-database"
+                  "icon": "uil uil-database"
                 },
                 {
                   "title": "MySql",
@@ -344,7 +344,7 @@
               "title": "Jenkins"
             },
             {
-              "icon": "fa-solid fa-diagram-project",
+              "icon": "uil uil-server-network",
               "title": "Puppet"
             }
           ]
