@@ -129,7 +129,7 @@
                   "title": "MySql",
                   "icon": "devicon-mysql-plain colored"
                 },
-                { "title": "FlywayDB" },
+                {  "icon": "fa-solid fa-database","title": "FlywayDB" },
                 {
                   "title": "Vue.js",
                   "icon": "devicon-vuejs-plain colored"
@@ -183,7 +183,7 @@
                   "title": "MySql",
                   "icon": "devicon-mysql-plain colored"
                 },
-                { "title": "FlywayDB" },
+                { "icon": "fa-solid fa-database", "title": "FlywayDB" },
                 {
                   "icon": "devicon-terraform-plain-wordmark colored",
                   "title": "Terraform"
