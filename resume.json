@@ -344,7 +344,7 @@
               "title": "Jenkins"
             },
             {
-              "icon": "uil uil-server-network",
+              "icon": "fa-solid fa-diagram-project",
               "title": "Puppet"
             }
           ]
