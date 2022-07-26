@@ -163,7 +163,7 @@
               ]
             },
             {
-              "title": "Developer, Internal Reporting Projects",
+              "title": "Internal Reporting Projects - Developer",
               "startDate": "June 2021",
               "endDate": "October 2021",
               "description": "Built data pipelines in an AWS serverless architecture to provide feedback on project statuses and consultant performance and availability to key Turnberry stakeholders.",
@@ -204,7 +204,7 @@
             },
             {
               "icon": "https://www.3m.com/3m_theme_assets/themes/3MTheme/assets/images/unicorn/Logo_mobile.png",
-              "title": "3M - IT Developer II",
+              "title": "3M - IT Developer I-II",
               "startDate": "July 2019",
               "endDate": "June 2021",
               "description": "Designed and implemented front and back-end additions and enhancements to internally developed systems that assisted in the development of a rules engine which allowed business users the ability to author customizable rules to evaluate the quality of data reported to regulatory organizations.",
