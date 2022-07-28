@@ -147,7 +147,7 @@
                 { "icon": "devicon-bash-plain colored", "title": "Bash" },
                 {
                   "icon": "devicon-docker-plain colored",
-                  "title": "Docker / Compose"
+                  "title": "Docker"
                 },
                 { "icon": "uil uil-brackets-curly", "title": "Cypress" },
                 {
