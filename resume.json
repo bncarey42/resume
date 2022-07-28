@@ -80,8 +80,7 @@
           "title": "Managing Consultant - Software Engineer",
           "startDate": "April 2022",
           "endDate": "Present",
-          "description": null,
-          "duties": []
+          "description": "In addition to consulting and project duties, was resposible for the managment of four other devlepers, performing checkins, coaching, and mitigating issues when they arose."
         }
       ]
     },
@@ -95,8 +94,7 @@
           "title": "Senoir Developer Associate I-II",
           "startDate": "July 2019",
           "endDate": "April 2022",
-          "duties": [],
-          "description": null,
+          "description": "As a consultant provided full-stack custom software solutions to clients projects. Participated in and led training in new technologies.",
           "technologies": [
             {
               "icon": "devicon-go-original-wordmark colored",
