@@ -153,10 +153,6 @@
                 {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
-                },
-                {
-                  "icon": "devicon-jetbrains-plain colored",
-                  "title": "JetBrains IDE's"
                 }
               ]
             },
@@ -194,10 +190,6 @@
                 {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
-                },
-                {
-                  "icon": "devicon-jetbrains-plain colored",
-                  "title": "JetBrains IDE's"
                 }
               ]
             },
@@ -278,10 +270,6 @@
                 {
                   "title": "Nginx",
                   "icon": "devicon-nginx-original colored"
-                },
-                {
-                  "icon": "devicon-jetbrains-plain colored",
-                  "title": "JetBrains IDE's"
                 }
               ]
             }
