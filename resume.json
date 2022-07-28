@@ -147,7 +147,7 @@
                 { "icon": "devicon-bash-plain colored", "title": "Bash" },
                 {
                   "icon": "devicon-docker-plain colored",
-                  "title": "Docker / Docker Compose"
+                  "title": "Docker / Compose"
                 },
                 { "icon": "uil uil-brackets-curly", "title": "Cypress" },
                 {
@@ -315,7 +315,7 @@
             },
             {
               "icon": "devicon-spring-plain colored",
-              "title": "Spring\n(Batch, Web)"
+              "title": "Spring  (Batch, Web)"
             },
             {
               "icon": "devicon-gradle-plain colored",
