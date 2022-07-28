@@ -51,10 +51,10 @@
         </div>
       </div>
       <div class="w-full">
-        <h2 class="mb-1 text-dark">Relevant Experience</h2>
+        <h2 class="mb-2 text-dark">Relevant Experience</h2>
         <ul class="ml-2">
           <li v-for="employer in releventWork" :key="employer.employer">
-            <h3 class="text-dark mb-1">
+            <h3 class="text-dark mb-2">
               {{ employer.employer }}: {{employer.startDate}} -
               {{employer.endDate}}
             </h3>
@@ -68,7 +68,7 @@
             </div>
           </li>
         </ul>
-        <h2 class="mb-1 text-dark">Education</h2>
+        <h2 class="mb-2 text-dark">Education</h2>
         <ul class="ml-2">
           <li v-for="edu in education" :key="edu.school">
             <education :education="edu" />
@@ -181,14 +181,14 @@
       template: /*html*/ `
       <div class="mb-5">
         <div class="mb-1">
-            <h3 class="text-dark mb-1">{{ role.title }}: {{ role.startDate }} - {{ role.endDate }}</h3>
+            <h3 class="text-dark mb-2">{{ role.title }}: {{ role.startDate }} - {{ role.endDate }}</h3>
             <p class="ml-2"><span class="font-semibold mr-1" v-if="role.description">{{
                 project ? "Project Description" : "Role Description" 
                 }}</span>{{ role.description }}</p>
             </div>
             <div class="ml-2">
             <div v-if="role.technologies?.length" >
-                <h4 class="mb-1">Technologies:</h4>
+                <h4 class="mb-2">Technologies:</h4>
                 <ul class="inline-grid grid-cols-9 gap-1 w-full ml-2">
                 <li class="text-center" v-for="(tech, key) in role.technologies" :key="key">
                     <icon :icon="tech.icon" :title="tech.title" />
@@ -204,7 +204,7 @@
                 </div>
             </div>
             <div v-if="role.projects?.length" class="mb-2">
-                <h4 class="mb-1">Projects:</h4>
+                <h4 class="mb-2">Projects:</h4>
                 <div class="ml-2">
                 <role :role="project" project v-for="(project, idx) in role.projects" :key="idx"/>
                 </div>
@@ -253,7 +253,7 @@
     }
 
     h2 {
-      font-size: 1.40em;
+      font-size: 1.42em;
       font-weight: bold;
     }
 
