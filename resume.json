@@ -177,7 +177,7 @@
                 },
                 {
                   "icon": "devicon-sqlalchemy-plain colored",
-                  "title": "SQL Alchemy"
+                  "title": "SQLAlchemy"
                 },
                 { "icon": "devicon-bash-plain colored", "title": "Bash" },
                 {
