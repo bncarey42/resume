@@ -12,7 +12,8 @@
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
-    />
+    />      
+    <script src=".env.js"></script>
     <!--TAILWIND-->
     <script src="https://cdn.tailwindcss.com"></script>
     <!--VUE-->
@@ -20,7 +21,7 @@
   </head>
 
   <body>
-    <div id="app" class="max-w-[850px] mx-auto text-xs bg-white">
+    <div id="app" class="max-w-[850px] mx-auto text-xs bg-white">    
       <div class="w-full flex justify-start gap-3 mb-5">
         <!-- <div class="grow-0 w-28">
           <img
@@ -79,7 +80,6 @@
   </body>
   <script>
     const { createApp } = Vue;
-
     app = createApp({
       data() {
         return {
@@ -88,13 +88,13 @@
             { icon: "uil uil-house-user", title: "Des Moines, Iowa" },
             {
               icon: "uil uil-phone",
-              title: "",
-              link: "tel:",
+              title: contact?.PHONE,
+              link: `tel:${contact?.PHONE}`,
             },
             {
               icon: "uil uil-envelope-alt",
-              title: "",
-              link: "mailto:",
+              title: contact?.EMAIL,
+              link: `mailto:${contact?.EMAIL}`,
             },
           ],
           sites: [
@@ -116,6 +116,8 @@
           ],
           work: [],
           education: [],
+
+          local:true,
         };
       },
       created() {
@@ -126,7 +128,7 @@
             headers: new Headers({
               Accept: "application/vnd.github.VERSION.raw",
             }),
-            redirect: "follow",
+            redirect: "follow"
           }
         )
           .then((response) => response.json())

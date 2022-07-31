@@ -80,20 +80,13 @@
           "title": "Software Engineering Managing Consultant",
           "startDate": "April 2022",
           "endDate": "Present",
-          "description": "As a consultant, provided full-stack custom software solutions and support to client projects. Participated in and led training in new technologies. Managed four other developers and engineers, performing check-ins, coaching, and mitigating issues when they arose.",
-          "projects": [
-            {
-              "title": "Best Buy - Data Development Engineer",
-              "startDate": "July 2022",
-              "endDate": "Present"
-            }
-          ]
+          "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies. Managed four other developers and engineers, performing check-ins, coaching, and mitigating issues when they arose."
         },
         {
           "title": "Senior Developer Associate I-II",
           "startDate": "July 2019",
           "endDate": "April 2022",
-          "description": "As a consultant, provided full-stack custom software solutions and support to client projects. Participated in and led training in new technologies.",
+          "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies.",
           "technologies": [
             {
               "icon": "devicon-go-original-wordmark colored",
