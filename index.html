@@ -22,12 +22,12 @@
   <body>
     <div id="app" class="max-w-[850px] mx-auto text-xs bg-white">
       <div class="w-full flex justify-start gap-3 mb-5">
-        <div class="grow-0 w-28">
+        <!-- <div class="grow-0 w-28">
           <img
             src="https://avatars.githubusercontent.com/u/11987913?v=4"
             class="rounded-full w-full"
           />
-        </div>
+        </div> -->
         <div class="grow">
           <h1 class="h-4/6 text-6xl text-dark font-semibold">{{ name }}</h1>
           <ul class="pl-1 flex justify-start gap-3 text-muted">
@@ -53,7 +53,7 @@
       <div class="w-full">
         <h2 class="mb-3 text-dark">Relevant Experience</h2>
         <ul class="ml-2">
-          <li v-for="employer in releventWork" :key="employer.employer">
+          <li v-for="employer in relevantWork" :key="employer.employer">
             <h3 class="text-dark mb-2">
               {{ employer.employer }}: {{employer.startDate}} -
               {{employer.endDate}}
@@ -137,13 +137,13 @@
           .catch((error) => console.error("error", error));
       },
       computed: {
-        releventWork() {
+        relevantWork() {
           return this.work.filter((exp) => {
             return (
               new Date().getFullYear() -
-                (isNaN(Number(exp.endDate.split(" ")[1]))
+                (isNaN(Number(exp.startDate.split(" ")[1]))
                   ? 2022
-                  : Number(exp.endDate.split(" ")[1])) <
+                  : Number(exp.startDate.split(" ")[1])) <
               6
             );
           });
@@ -185,7 +185,7 @@
             <span class="font-semibold mr-1" v-if="role.description">{{ project ? "Project Description" : "Role Description"}}:</span>{{ role.description }}
         </p>
         <div class="ml-2">
-            <div v-if="role.technologies?.length" >
+            <div v-if="role.technologies?.length" class='mb-1' >
                 <h4 class="mb-2">Technologies:</h4>
                 <ul class="inline-grid grid-cols-8 gap-1 w-full ml-2">
                     <li class="text-center" v-for="(tech, key) in role.technologies" :key="key">
@@ -201,7 +201,7 @@
                 </ul>
                 </div>
             </div>
-            <div v-if="role.projects?.length">
+            <div v-if="role.projects?.length" class='mb-1'>
                 <h4 class="mb-2">Projects:</h4>
                 <div class="ml-2">
                 <role :role="project" project v-for="(project, idx) in role.projects" :key="idx"/>

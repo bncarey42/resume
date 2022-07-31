@@ -77,12 +77,18 @@
       "endDate": "Present",
       "roles": [
         {
-          "title": "Managing Consultant - Software Engineer",
+          "title": "Software Engineering Managing Consultant",
           "startDate": "April 2022",
           "endDate": "Present",
-          "description": "In addition to expanded client consulting and project duties, was responsible for the management of four other developers, performing check-ins, coaching, and mitigating issues when they arose."
+          "description": "As a consultant, provided full-stack custom software solutions and support to client projects. Participated in and led training in new technologies. Managed four other developers and engineers, performing check-ins, coaching, and mitigating issues when they arose.",
+          "projects": [
+            {
+              "title": "Best Buy - Data Development Engineer",
+              "startDate": "July 2022",
+              "endDate": "Present"
+            }
+          ]
         },
-
         {
           "title": "Senior Developer Associate I-II",
           "startDate": "July 2019",
@@ -100,7 +106,7 @@
               "title": "University of Saint Thomas Law School - Back End Developer",
               "startDate": "October 2021",
               "endDate": "May 2022",
-              "description": "Built a platform to allow law school professors to partner students with mentors based on student and mentor input as well as manage time entry for students’ fieldwork. Designed and implemented Python code in an AWS serverless architecture as well as provided fullstack and infrastructure development support to the rest of the development team.",
+              "description": "Built a platform to allow law school professors to match students with mentors based on student and mentor input as well as manage time entry for students’ fieldwork. Designed and implemented Python code in an AWS serverless architecture as well as provided fullstack and infrastructure development support to the rest of the development team.",
               "duties": [
                 "Designed a framework for routing event-based traffic within AWS Lambda and managing data model mapping which formed the basis for project's API.",
                 "Designed and developed new MySQL Database in AWS Aurora and built version control and management SQL scripts for use in FlywayDB.",
@@ -120,7 +126,7 @@
                   "title": "MySql",
                   "icon": "devicon-mysql-plain colored"
                 },
-                {  "icon": "uil uil-database","title": "FlywayDB" },
+                { "icon": "uil uil-database", "title": "FlywayDB" },
                 {
                   "title": "Vue.js",
                   "icon": "devicon-vuejs-plain colored"
@@ -156,7 +162,7 @@
               "description": "Built data pipelines in an AWS serverless architecture to provide feedback on project statuses and consultant performance and availability to key Turnberry stakeholders.",
               "duties": [
                 "Developed ETL in AWS Lambda to pull data from multiple internal and external sources to centralized datastores, including S3 and MySQL in AWS Aurora",
-                "Built reporting pipeline to deliver data to key stakeholders and company leadership via PowerBI and SMS emails", 
+                "Built reporting pipeline to deliver data to key stakeholders and company leadership via PowerBI and SMS emails",
                 "Built cloud infrastructure in Terraform to build resilient, event driven, data pipelines.",
                 "Trained and mentored junior developers."
               ],
@@ -331,7 +337,7 @@
       ]
     },
     {
-      "icon":"https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gs-logo-sol47868_DER-77721.png",
+      "icon": "https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gs-logo-sol47868_DER-77721.png",
       "employer": "Best Buy - Geek Squad",
       "startDate": "September 2015",
       "endDate": "June 2017",
@@ -366,9 +372,9 @@
       ]
     },
     {
-      "icon":"https://www.girlscoutslp.org/content/dam/girlscouts-shared/images/2021-logos-resized/gslakesandpines-green.png",
+      "icon": "https://www.girlscoutslp.org/content/dam/girlscouts-shared/images/2021-logos-resized/gslakesandpines-green.png",
       "employer": "The Girl Scouts of Minnesota / Wisconsin Lake and Pines",
-      "startDate": "June 2017",
+      "startDate": "November 2014",
       "endDate": "September 2015",
       "roles": [
         {
@@ -426,7 +432,7 @@
         {
           "title": "Volunteer Coordinator",
           "startDate": "July 2013",
-      "endDate": "March 2014",
+          "endDate": "March 2014",
           "description": null,
           "duties": [
             "Recruited, trained, and coordinated the daily activities of a weekly average of 60 volunteers in food pantry in addition to larger weekend events averaging around 75 volunteers.",
@@ -444,7 +450,7 @@
         {
           "title": "Summer Totus Tuus Teacher",
           "startDate": "May 2012",
-      "endDate": "July 2012",
+          "endDate": "July 2012",
           "description": null,
           "duties": [
             "Led youth in grades 1-12 in classes and activities centered in Catholic theology while traveling from parish to parish throughout northwestern Iowa.",
@@ -476,7 +482,7 @@
       ]
     },
     {
-      "icon":"https://csbsju.edu/prebuilt/canvas_template/images/shield-red.png",
+      "icon": "https://csbsju.edu/prebuilt/canvas_template/images/shield-red.png",
       "employer": "College of Saint Benedict and Saint John’s University",
       "startDate": "August 2009",
       "endDate": "December 2012",
@@ -484,7 +490,7 @@
         {
           "title": "Fine Arts Programming Technical Assistant",
           "startDate": "August 2009",
-      "endDate": "December 2012",
+          "endDate": "December 2012",
           "description": null,
           "duties": [
             "Facilitated sound and light board programming and operation.",
