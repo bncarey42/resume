@@ -80,11 +80,11 @@
           "title": "Managing Consultant - Software Engineer",
           "startDate": "April 2022",
           "endDate": "Present",
-          "description": "In addition to expanded client consulting and project duties, was resposible for the managment of four other devlepers, performing checkins, coaching, and mitigating issues when they arose."
+          "description": "In addition to expanded client consulting and project duties, was responsible for the management of four other developers, performing check-ins, coaching, and mitigating issues when they arose."
         },
 
         {
-          "title": "Senoir Developer Associate I-II",
+          "title": "Senior Developer Associate I-II",
           "startDate": "July 2019",
           "endDate": "April 2022",
           "description": "As a consultant, provided full-stack custom software solutions and support to client projects. Participated in and led training in new technologies.",
@@ -113,7 +113,7 @@
               "technologies": [
                 { "icon": "devicon-python-plain colored", "title": "Python" },
                 {
-                  "icon": "devicon-amazonwebservices-plain-wordmark colored",
+                  "icon": "devicon-amazonwebservices-original colored",
                   "title": "AWS"
                 },
                 {
@@ -126,15 +126,15 @@
                   "icon": "devicon-vuejs-plain colored"
                 },
                 {
-                  "icon": "devicon-sqlalchemy-original-wordmark colored",
-                  "title": "SQL Alchemy"
+                  "icon": "devicon-sqlalchemy-plain colored",
+                  "title": "SQLAlchemy"
                 },
                 {
-                  "icon": "devicon-tailwindcss-original-wordmark colored",
+                  "icon": "devicon-tailwindcss-plain colored",
                   "title": "TailwindCSS"
                 },
                 {
-                  "icon": "devicon-terraform-plain-wordmark colored",
+                  "icon": "devicon-terraform-plain colored",
                   "title": "Terraform"
                 },
                 { "icon": "devicon-bash-plain colored", "title": "Bash" },
@@ -163,7 +163,7 @@
               "technologies": [
                 { "icon": "devicon-python-plain colored", "title": "Python" },
                 {
-                  "icon": "devicon-amazonwebservices-plain-wordmark colored",
+                  "icon": "devicon-amazonwebservices-original colored",
                   "title": "AWS"
                 },
                 {
@@ -172,11 +172,11 @@
                 },
                 { "icon": "uil uil-database", "title": "FlywayDB" },
                 {
-                  "icon": "devicon-terraform-plain-wordmark colored",
+                  "icon": "devicon-terraform-plain colored",
                   "title": "Terraform"
                 },
                 {
-                  "icon": "devicon-sqlalchemy-original-wordmark colored",
+                  "icon": "devicon-sqlalchemy-plain colored",
                   "title": "SQL Alchemy"
                 },
                 { "icon": "devicon-bash-plain colored", "title": "Bash" },
@@ -213,7 +213,7 @@
                   "icon": "devicon-vuejs-plain colored"
                 },
                 {
-                  "icon": "devicon-bootstrap-plain-wordmark colored",
+                  "icon": "devicon-bootstrap-plain colored",
                   "title": "Bootstrap"
                 },
                 {
@@ -384,11 +384,11 @@
           ],
           "technologies": [
             {
-              "icon": "devicon-html5-plain-wordmark colored",
+              "icon": "devicon-html5-plain colored",
               "title": "HTML"
             },
             {
-              "icon": "devicon-css3-plain-wordmark colored",
+              "icon": "devicon-css3-plain colored",
               "title": "CSS"
             },
             {
