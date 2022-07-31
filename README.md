@@ -1,7 +1,9 @@
 # Resume
 
-Here can be found my resume. Data is stored in `./resume.json`. 
-A script is provided to generate markdown and HTML versions that are more human readable. 
-The HTML version can be printed as a PDF for use in applications.
+Here can be found my resume. 
 
-This data is also used to populate my personal site at [bncarey42.github.io](bncarey42.github.io)
+Resume data is stored in `./resume.json`. 
+
+The HTML file pulls this data via the github API and can be printed as a PDF via your browser.
+
+This data is also used to populate my personal site at [http://bncarey42.github.io](bncarey42.github.io).
