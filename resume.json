@@ -80,7 +80,15 @@
           "title": "Software Engineering Managing Consultant",
           "startDate": "April 2022",
           "endDate": "Present",
-          "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies. Managed four other developers and engineers, performing check-ins, coaching, and mitigating issues when they arose."
+          "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies. Managed other developers and engineers, performing check-ins, coaching, and mitigation of issues when they arose.",
+          "duties": [
+            "Oversaw consulting activities of four other engineers assigned to client projects",
+            "Provided mentorship and professional guidance to direct reports.",
+            "Acted as first point of contact when issues arose while direct reports were on assignment to clients."
+          ],
+          "projects":[{"title": "Best Buy - Data Development Engineer",
+          "startDate": "July 2022",
+          "endDate": "Present"}]
         },
         {
           "title": "Senior Developer Associate I-II",
