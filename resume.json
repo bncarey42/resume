@@ -88,10 +88,54 @@
           ],
           "projects":[
             {
+              "icon": "https://i.pinimg.com/280x280_RS/76/7b/c0/767bc080aec80e0814fafe7e01a964e5.jpg",
+              "title": "University of Saint Thomas Law School - Support Engineer",
+              "startDate": "September 2022",
+               "endDate": "Present",
+               "technologies": [
+                { "icon": "devicon-python-plain colored", "title": "Python" },
+                {
+                  "icon": "devicon-amazonwebservices-original colored",
+                  "title": "AWS"
+                },
+                {
+                  "title": "MySql",
+                  "icon": "devicon-mysql-plain colored"
+                },
+                { "icon": "uil uil-database", "title": "FlywayDB" },
+                {
+                  "title": "Vue.js",
+                  "icon": "devicon-vuejs-plain colored"
+                },
+                {
+                  "icon": "devicon-sqlalchemy-plain colored",
+                  "title": "SQLAlchemy"
+                },
+                {
+                  "icon": "devicon-tailwindcss-plain colored",
+                  "title": "TailwindCSS"
+                },
+                {
+                  "icon": "devicon-terraform-plain colored",
+                  "title": "Terraform"
+                },
+                { "icon": "devicon-bash-plain colored", "title": "Bash" },
+                {
+                  "icon": "devicon-docker-plain colored",
+                  "title": "Docker"
+                },
+                { "icon": "uil uil-brackets-curly", "title": "Cypress" },
+                {
+                  "icon": "devicon-git-plain colored",
+                  "title": "git"
+                }
+              ]
+            },
+            {
                "title": "Best Buy - Data Development Engineer",
                "startDate": "July 2022",
                "endDate": "Present",
-               "technology": [
+               "technologies": [
                 {
                   "title": "Google Cloud Platform",
                   "icon": "devicon-googlecloud-plain colored"
