@@ -91,7 +91,7 @@
                "title": "Best Buy - Data Development Engineer",
                "startDate": "July 2022",
                "endDate": "Present",
-               "technology": [
+               "technologies": [
                 {
                   "title": "Google Cloud Platform",
                   "icon": "devicon-googlecloud-plain colored"
