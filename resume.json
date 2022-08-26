@@ -82,13 +82,44 @@
           "endDate": "Present",
           "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies. Managed other developers and engineers, performing check-ins, coaching, and mitigation of issues when they arose.",
           "duties": [
-            "Oversaw consulting activities of four other engineers assigned to client projects",
+            "Oversaw consulting activities of fellow engineers",
             "Provided mentorship and professional guidance to direct reports.",
-            "Acted as first point of contact when issues arose while direct reports were on assignment to clients."
+            "Acted as first point of contact when issues arose."
           ],
-          "projects":[{"title": "Best Buy - Data Development Engineer",
-          "startDate": "July 2022",
-          "endDate": "Present"}]
+          "projects":[
+            {
+               "title": "Best Buy - Data Development Engineer",
+               "startDate": "July 2022",
+               "endDate": "Present",
+               "technology": [
+                {
+                  "title": "Google Cloud Platform",
+                  "icon": "devicon-googlecloud-plain colored"
+                },
+                {
+                  "icon": "devicon-github-original colored",
+                  "title": "GitHub"
+                },
+                {
+                  "title": "Teradata",
+                  "icon": "uil uil-database"
+                },
+                {
+                  "title": "MSSQL",
+                  "icon": "devicon-microsoftsqlserver-plain colored"
+                },
+                {
+                  "icon": "devicon-oracle-original colored",
+                  "title": "Oracle DB"
+                },
+               ],
+               "duties": [
+                "Implemented data models for ingestion from source application databases to GCP - Big Query.",
+                "Build views in GCP - Big Query for use by business users.",
+                "Scheduled extract from implemented views to Terradata via GCP - Cloud Scheduler."
+               ]
+            }
+           ]
         },
         {
           "title": "Senior Developer Associate I-II",
