@@ -111,7 +111,7 @@
                 {
                   "icon": "devicon-oracle-original colored",
                   "title": "Oracle DB"
-                },
+                }
                ],
                "duties": [
                 "Implemented data models for ingestion from source application databases to GCP - Big Query.",
