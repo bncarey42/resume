@@ -84,7 +84,7 @@
           "duties": [
             "Oversaw consulting activities of fellow engineers",
             "Provided mentorship and professional guidance to direct reports.",
-            "Acted as first point of contact when issues arose."
+            "Acted as first point of contact when issues arose at direct reports' clients."
           ],
           "projects":[
             {
@@ -129,6 +129,11 @@
                   "icon": "devicon-git-plain colored",
                   "title": "git"
                 }
+              ],
+              "duties": [
+                "Debugged and provided code fixes for bugs in frontend and backend functionality",
+                "Updated system logic to better reflect user expectations",
+                "Managed releases of updates to production environment"
               ]
             },
             {
@@ -158,9 +163,9 @@
                 }
                ],
                "duties": [
-                "Implemented data models for ingestion from source application databases to GCP - Big Query.",
-                "Build views in GCP - Big Query for use by business users.",
-                "Scheduled extract from implemented views to Terradata via GCP - Cloud Scheduler."
+                "Implemented data models for ingestion from source application databases to Big Query.",
+                "Build views in Big Query for use by business users and other systems.",
+                "Scheduled extract from implemented views via Cloud Scheduler."
                ]
             }
            ]
