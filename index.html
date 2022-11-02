@@ -22,7 +22,7 @@
 
   <body>
     <div id="app" class="max-w-[850px] mx-auto text-xs bg-white">    
-      <div class="w-full flex justify-start gap-3 mb-5">
+      <div class="w-full flex justify-start gap-3 mb-1">
         <!-- <div class="grow-0 w-28">
           <img
             src="https://avatars.githubusercontent.com/u/11987913?v=4"
@@ -52,10 +52,10 @@
         </div>
       </div>
       <div class="w-full">
-        <h2 class="mb-3 text-dark">Relevant Experience</h2>
+        <h2 class="mb-1 text-dark">Relevant Experience</h2>
         <ul class="ml-2">
           <li v-for="employer in relevantWork" :key="employer.employer">
-            <h3 class="text-dark mb-2">
+            <h3 class="text-dark ">
               {{ employer.employer }}: {{employer.startDate}} -
               {{employer.endDate}}
             </h3>
@@ -69,7 +69,7 @@
             </div>
           </li>
         </ul>
-        <h2 class="mb-3 text-dark">Education</h2>
+        <h2 class="mb-1 text-dark">Education</h2>
         <ul class="ml-2">
           <li v-for="edu in education" :key="edu.school">
             <education :education="edu" />
@@ -181,30 +181,30 @@
         },
       },
       template: /*html*/ `
-      <div class="mb-5">
-        <h3 class="text-dark mb-2">{{ role.title }}: {{ role.startDate }} - {{ role.endDate }}</h3>
-        <p class="ml-2 mb-1">
+      <div class="mb-1">
+        <h3 class="text-dark mb-0.5">{{ role.title }}: {{ role.startDate }} - {{ role.endDate }}</h3>
+        <p class="ml-2 ">
             <span class="font-semibold mr-1" v-if="role.description">{{ project ? "Project Description" : "Role Description"}}:</span>{{ role.description }}
         </p>
         <div class="ml-2">
-            <div v-if="role.technologies?.length" class='mb-1' >
-                <h4 class="mb-2">Technologies:</h4>
+            <div v-if="role.technologies?.length" class='' >
+                <h4 class="mb-0.5">Technologies:</h4>
                 <ul class="inline-grid grid-cols-8 gap-1 w-full ml-2">
                     <li class="text-center" v-for="(tech, key) in role.technologies" :key="key">
                         <icon :icon="tech.icon" :title="tech.title" />
                     </li>
                 </ul>
             </div>
-            <div v-if="role.duties?.length" class='mb-1'>
-                <h4 class="mb-2">Responsibilities:</h4>
+            <div v-if="role.duties?.length" class=''>
+                <h4 class="mb-0.5">Responsibilities:</h4>
                 <div class="ml-2">
                 <ul>
                     <li class="list-disc" v-for="(duty, key) in role.duties" :key="key">{{ duty }}</li>
                 </ul>
                 </div>
             </div>
-            <div v-if="role.projects?.length" class='mb-1'>
-                <h4 class="mb-2">Projects:</h4>
+            <div v-if="role.projects?.length" class=''>
+                <h4 class="mb-0.5">Projects:</h4>
                 <div class="ml-2">
                 <role :role="project" project v-for="(project, idx) in role.projects" :key="idx"/>
                 </div>
