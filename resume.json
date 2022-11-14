@@ -82,17 +82,17 @@
           "endDate": "Present",
           "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies. Managed other developers and engineers, performing check-ins, coaching, and mitigation of issues when they arose.",
           "duties": [
-            "Oversaw consulting activities of fellow engineers",
+            "Oversaw consulting activities of fellow engineers.",
             "Provided mentorship and professional guidance to direct reports.",
-            "Acted as first point of contact when issues arose at direct reports' clients."
+            "Acted as the first point of contact when issues arose with direct reports' clients."
           ],
-          "projects":[
+          "projects": [
             {
               "icon": "https://i.pinimg.com/280x280_RS/76/7b/c0/767bc080aec80e0814fafe7e01a964e5.jpg",
               "title": "University of Saint Thomas Law School - Support Engineer",
               "startDate": "September 2022",
-               "endDate": "November 2022",
-               "technologies": [
+              "endDate": "November 2022",
+              "technologies": [
                 { "icon": "devicon-python-plain colored", "title": "Python" },
                 {
                   "icon": "devicon-amazonwebservices-original colored",
@@ -131,17 +131,17 @@
                 }
               ],
               "duties": [
-                "Debugged and provided code fixes for bugs in frontend and backend functionality",
-                "Updated system logic to better reflect user expectations",
-                "Managed releases of updates to production environment",
-                "Trained long term support team in system specifics."
+                "Debugged and provided code fixes for bugs in frontend and backend functionality.",
+                "Updated system logic to better reflect user expectations.",
+                "Managed releases to the production environment.",
+                "Trained long-term support team in system's design and architecture."
               ]
             },
             {
-               "title": "Best Buy - Data Development Engineer",
-               "startDate": "July 2022",
-               "endDate": "Present",
-               "technologies": [
+              "title": "Best Buy - Data Development Engineer",
+              "startDate": "July 2022",
+              "endDate": "Present",
+              "technologies": [
                 {
                   "title": "Google Cloud Platform",
                   "icon": "devicon-googlecloud-plain colored"
@@ -162,14 +162,14 @@
                   "icon": "devicon-oracle-original colored",
                   "title": "Oracle DB"
                 }
-               ],
-               "duties": [
+              ],
+              "duties": [
                 "Implemented data models for ingestion from source application databases to Big Query.",
-                "Build views in Big Query for use by business users and other systems.",
+                "Built views in Big Query for use by business users and other systems.",
                 "Scheduled extract from implemented views via Cloud Scheduler."
-               ]
+              ]
             }
-           ]
+          ]
         },
         {
           "title": "Senior Developer Associate I-II",
@@ -190,13 +190,13 @@
               "endDate": "May 2022",
               "description": "Built a platform to allow law school professors to match students with mentors based on student and mentor input as well as manage time entry for students’ fieldwork. Designed and implemented Python code in an AWS serverless architecture as well as provided fullstack and infrastructure development support to the rest of the development team.",
               "duties": [
-                "Designed a framework for routing event-based traffic within AWS Lambda and managing data model mapping which formed the basis for project's API.",
-                "Designed and developed new MySQL Database in AWS Aurora and built version control and management SQL scripts for use in FlywayDB.",
-                "Built end to end tests run in AWS Build Pipelines to test front and backend code as well as the integration between them in Postman and Cypress.",
+                "Designed a framework for routing event-based traffic within AWS Lambda and managing data model mapping which formed the basis for the project's API.",
+                "Designed and developed a new MySQL Database in AWS Aurora and built version control and management SQL scripts for use in FlywayDB.",
+                "Built end-to-end tests run in AWS Build Pipelines to test front and backend code as well as the integration between them in Postman and Cypress.",
                 "Implemented Bash scripts, Docker Compose configurations, and used AWS SAM framework to improve developer workflow and facilitate ease of local development.",
                 "Provided full stack development support and assistance with building functionality, interfaces, and infrastructure in Python, SQL Alchemy, JavaScript, Vue.js, TailwindCSS, and Terraform.",
                 "Lead and participated in code reviews and assisted other developers in pair programming and debugging code.",
-                "Mentored junior developers on project team"
+                "Mentored junior developers on the project team"
               ],
               "technologies": [
                 { "icon": "devicon-python-plain colored", "title": "Python" },
@@ -279,12 +279,12 @@
               "title": "3M - IT Developer I-II",
               "startDate": "July 2019",
               "endDate": "June 2021",
-              "description": "Designed and implemented front and back-end additions and enhancements to internally developed systems that assisted in the development of a rules engine which allowed business users the ability to author customizable rules to evaluate the quality of data reported to regulatory organizations.",
+              "description": "Designed and implemented front and back-end additions and enhancements to internally developed systems that assisted in the development of a rules engine that allowed business users the ability to author customizable rules to evaluate the quality of data reported to regulatory organizations.",
               "duties": [
-                "Built code using PHP, Laravel, JavaScript, and Vue.js into an existing system that utilized a shunting yard algorithm to execute user defined functions on data stored in an Elasticsearch cluster.",
-                "Implemented enhancements to Apache Spark ETL process in Scala pulling data from source systems, primarily housed in Taradata, to populate an Elasticsearch cluster.",
+                "Built code using PHP, Laravel, JavaScript, and Vue.js into an existing system that utilized a shunting yard algorithm to execute user-defined functions on data stored in an Elasticsearch cluster.",
+                "Implemented enhancements to Apache Spark ETL process in Scala pulling data from source systems, primarily housed in Teradata, to populate an Elasticsearch cluster.",
                 "Liaised with business users to gather requirements and feedback on project status and design.",
-                "Authored and maintained end user and developer documentation.",
+                "Authored and maintained end-user and developer documentation.",
                 "Provided consultation to project team leads on system design and project direction."
               ],
               "technologies": [
@@ -370,11 +370,11 @@
           "endDate": "July 2019",
           "description": "As a Java Developer within the Individual Annuity Division, built batch processes and API services to facilitate transactions on customer Annuity products, provide product performance data to business associates, and report product performance on financial statements. ",
           "duties": [
-            "Designed new applications and enhancements to existing software for internally developed Java Spring-Batch applications, web-services, and purchased software solutions.",
-            "Provided direct support to business clients as well as oversaw the team backlog of system defects and sat as liaison to business unit on cross function team assigned to oversee defect backlog.",
-            "Migrated source code from legacy version control system to a CI/CD automated deployment pipeline based on git and GitHub, Jenkins, and Puppet.",
-            "Engaged in exploratory project piloting implementation of Agile methodologies.",
-            "Contributed to several legacy modernization projects converting Mainframe PL/I programs and data-sources to Java Spring-Batch and MSSQL and Oracle databases.",
+            "Designed new applications and enhancements to existing software for internally developed Java Spring-Batch applications, web services, and purchased software solutions.",
+            "Provided direct support to business clients as well as oversaw the team backlog of system defects and sat as liaison to the business unit on a cross-functional team assigned to oversee defect backlog.",
+            "Migrated source code from the legacy version control system to a CI/CD automated deployment pipeline based on git and GitHub, Jenkins, and Puppet.",
+            "Engaged in exploratory project piloting the implementation of Agile methodologies.",
+            "Contributed to several legacy modernization projects converting Mainframe PL/I programs and data sources to Java Spring-Batch and MSSQL and Oracle databases.",
             "Integrated external tools and systems into existing programs according to vendor specifications."
           ],
           "technologies": [
@@ -433,7 +433,7 @@
           "duties": [
             "Followed company standards to perform computer repairs ranging from simple hardware installation to virus removals and operating system repair.",
             "Managed client personal data, transferring or backing up requested photos, documents, music, videos, and program files.",
-            "Performed initial diagnostic of devices, restoring of returned devices and setting up new devices per client specifications.",
+            "Performed initial diagnostic of devices, restoring of returned devices, and setting up new devices per client specifications.",
             "Addressed client expectations and de-escalation when clients were not satisfied or did not understand the scope of work performed."
           ],
           "technologies": []
@@ -444,10 +444,10 @@
           "endDate": "November 2016",
           "description": "As a Geek Squad Technical Education Agent provided technical training to clients in class and one-on-one settings as well mentorship to Best Buy floor sales associates on solutions offered by Geek Squad to enable sales of Geek Squad services.",
           "duties": [
-            "Provided group and one on one training on the use of a number of devices.",
+            "Provided group and one on one training on the use of many types of devices.",
             "Provided clients with solutions to technical problems and questions.",
             "Educated and provided clients with product solutions to technical needs in the areas of the Internet of Things and in-home and small business networking.",
-            "Coached sales associates in how to offer a full solution to clients' needs when purchasing new technologies."
+            "Coached sales associates how to offer a full solution to clients' needs when purchasing new technologies."
           ],
           "technologies": []
         }
@@ -466,7 +466,7 @@
           "description": null,
           "duties": [
             "Designed and delivered new troop leaders training including design and development of new online training systems.",
-            "Developed new data tracking methods to ensure volunteers were current on all required trainings and paperwork.",
+            "Developed new data tracking methods to ensure volunteers were current on all required training and paperwork.",
             "Oversaw the training and retention of 800+ volunteers across central Minnesota.",
             "Oversaw mediation of conflict between volunteers."
           ],
@@ -499,7 +499,7 @@
           "endDate": "November 2014",
           "description": null,
           "duties": [
-            "Prepared and served coffee and tea based drinks as well as food products according to company practices and standards.",
+            "Prepared and served coffee and tea-based drinks as well as food products according to company practices and standards.",
             "Ensure that products meet customer and company standards.",
             "Performed daily cleaning duties."
           ]
@@ -517,7 +517,7 @@
           "endDate": "March 2014",
           "description": null,
           "duties": [
-            "Recruited, trained, and coordinated the daily activities of a weekly average of 60 volunteers in food pantry in addition to larger weekend events averaging around 75 volunteers.",
+            "Recruited, trained, and coordinated the daily activities of a weekly average of 60 volunteers in a food pantry in addition to larger weekend events averaging around 75 volunteers.",
             "Organized volunteer records and developed new methods of organizing and accessing volunteer data.",
             "Manage pantry social media pages including Facebook and YouTube. Wrote articles and designed advertisements for weekly publication."
           ]
