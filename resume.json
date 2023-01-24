@@ -178,7 +178,6 @@
               ],
               "duties": [
                 "Implemented AWS cloud infrastructure to design and build a transaction hub to route transactions from all Best Buy sales channels to appropriate downstream applications",
-                "Integrated Github, Jenkins, AWS, Cloud Formations, and Gradle to deploy build processes for applications in transaction hub system",
                 "Implemented data models for ingestion from source application databases to Big Query.",
                 "Built views in Big Query for use by business users and other systems.",
                 "Scheduled extract from implemented views via Cloud Scheduler."
