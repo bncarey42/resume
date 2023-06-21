@@ -120,10 +120,14 @@
                 {
                   "title": "MSSQL",
                   "icon": "devicon-microsoftsqlserver-plain colored"
+                },               {
+                  "icon": "devicon-docker-plain colored",
+                  "title": "Docker"
                 },
+        
                 {
-                  "icon": "devicon-oracle-original colored",
-                  "title": "Oracle DB"
+                  "icon": "devicon-podman-plain colored"
+                  "title": "Podman"
                 }
               ],
               "duties": [
