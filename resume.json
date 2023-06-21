@@ -87,10 +87,15 @@
             "Acted as the first point of contact when issues arose with direct reports' clients."
           ],
           "projects": [
+{ "title": "Data Project - Frontend Engineer", "startDate": "June 2023", "endDate":"present",  "technologies":[ 
+{
+                  "icon": "devicon-amazonwebservices-original colored",
+                  "title": "AWS"
+                },{"icon": "devicon-typescript-plain colored", "title": "Typescript"},{ "icon": "devicon-react-original colored", "title":"React"}], "duties":""},
             {
               "title": "Best Buy - Systems Engineer Level 2",
               "startDate": "July 2022",
-              "endDate": "Present",
+              "endDate": "June 2023",
               "technologies": [
                 {
                   "icon": "devicon-amazonwebservices-original colored",
