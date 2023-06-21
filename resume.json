@@ -101,6 +101,10 @@
                   "icon": "devicon-java-plain colored",
                   "title": "Java"
                 },
+{
+              "icon": "devicon-spring-plain colored",
+              "title": "Spring"
+            },
                 {
                   "icon": "devicon-gradle-plain colored",
                   "title": "Gradle"
