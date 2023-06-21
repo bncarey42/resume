@@ -126,7 +126,7 @@
                 },
         
                 {
-                  "icon": "devicon-podman-plain colored"
+                  "icon": "devicon-podman-plain colored",
                   "title": "Podman"
                 }
               ],
