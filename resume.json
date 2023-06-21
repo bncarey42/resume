@@ -91,7 +91,7 @@
 {
                   "icon": "devicon-amazonwebservices-original colored",
                   "title": "AWS"
-                },{"icon": "devicon-typescript-plain colored", "title": "Typescript"},{ "icon": "devicon-react-original colored", "title":"React"}], "duties":""},
+                },{"icon": "devicon-typescript-plain colored", "title": "Typescript"},{ "icon": "devicon-react-original colored", "title":"React"}, {"icon": "devicon-materialui-plain colored", "title":"Material UI"}], "duties":""},
             {
               "title": "Best Buy - Systems Engineer Level 2",
               "startDate": "July 2022",
