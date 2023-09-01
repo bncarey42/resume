@@ -87,12 +87,39 @@
             "Acted as the first point of contact when issues arose with direct reports' clients."
           ],
           "projects": [
-{ "title": "Data Project - Frontend Engineer", "startDate": "June 2023", "endDate":"present",  "technologies":[ 
-{
-                  "icon": "devicon-amazonwebservices-original colored",
-                  "title": "AWS"
-                },{"icon": "devicon-typescript-plain colored", "title": "Typescript"},{ "icon": "devicon-react-original colored", "title":"React"}, {"icon": "devicon-materialui-plain colored", "title":"Material UI"}], "duties":""},
-            {
+              { 
+                "title": "Data Project - Fullstack Engineer", 
+                "startDate": "June 2023", 
+                "endDate":"present",  
+                "technologies":[ 
+                  {
+                    "icon": "devicon-amazonwebservices-original colored",
+                    "title": "AWS"
+                  },
+                  {
+                    "icon": "devicon-typescript-plain colored", 
+                    "title": "Typescript"
+                  },
+                  { 
+                    "icon": "devicon-react-original colored", 
+                    "title":"React"
+                  }, 
+                  {
+                    "icon": "devicon-materialui-plain colored", 
+                    "title":"Material UI"
+                  },
+                  {
+                    "icon": "devicon-python-plain colored", 
+                    "title": "Python"
+                  },
+                  { 
+                    "icon": "uil uil-brackets-curly", 
+                    "title": "Serverless" 
+                  }
+                ], 
+                "duties":""
+              },
+              {
               "title": "Best Buy - Systems Engineer Level 2",
               "startDate": "July 2022",
               "endDate": "June 2023",
@@ -106,10 +133,10 @@
                   "icon": "devicon-java-plain colored",
                   "title": "Java"
                 },
-{
-              "icon": "devicon-spring-plain colored",
-              "title": "Spring"
-            },
+                {
+                  "icon": "devicon-spring-plain colored",
+                  "title": "Spring"
+                },
                 {
                   "icon": "devicon-gradle-plain colored",
                   "title": "Gradle"
