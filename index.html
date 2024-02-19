@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
     />      
-    <script src=".env.js"></script>
+    <script type="text/javascript" src="env.js"></script>
     <!--TAILWIND-->
     <script src="https://cdn.tailwindcss.com"></script>
     <!--VUE-->
@@ -32,12 +32,12 @@
         <div class="grow">
           <h1 class="h-4/6 text-6xl text-dark font-semibold">{{ name }}</h1>
           <ul class="pl-1 flex justify-start gap-3 text-muted">
-            <li v-for="contact in contacts" :key="contact">
-              <div class="flex justify-between gap-2" v-if="contact.title">
+            <li v-for="env in contacts" :key="env">
+              <div class="flex justify-between gap-2" v-if="env.title">
                 <icon
-                  :icon="contact.icon"
-                  :title="contact.title"
-                  :link="contact.link"
+                  :icon="env.icon"
+                  :title="env.title"
+                  :link="env.link"
                 />
               </div>
             </li>
@@ -77,14 +77,16 @@
       </div>
     </div>
   </body>
-  <script>
+  <script type="text/javascript" >
     const { createApp } = Vue;
     app = createApp({
       data() {
         return {
           name: "Ben Carey",
           contacts: [
-            { icon: "uil uil-house-user", title: "Des Moines, Iowa" },
+            { icon: "uil uil-house-user",
+             title: "Des Moines, Iowa" 
+            },
             {
               icon: "uil uil-phone",
               title: contact?.PHONE,
@@ -146,7 +148,7 @@
                 (isNaN(Number(exp.startDate.split(" ")[1]))
                   ? 2022
                   : Number(exp.startDate.split(" ")[1])) <=
-              6
+              7
             );
           });
         },
