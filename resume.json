@@ -6,7 +6,10 @@
       "city": "Saint Paul, Minnesota",
       "degree": "Associates of Applied Science: Computer Programming",
       "yearGraduated": "2017",
-      "extra": ["GPA: 3.7/4.0", "Honors: Dean's List"],
+      "extra": [
+        "GPA: 3.7/4.0",
+        "Honors: Dean's List"
+      ],
       "courses": [
         {
           "title": "CSCI 1410 Computer Science and Information Systems - Saint Paul College",
@@ -82,31 +85,57 @@
           "endDate": "Present",
           "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies. Managed other developers and engineers, performing check-ins, coaching, and mitigation of issues when they arose.",
           "duties": [
-            "Oversaw consulting activities of fellow engineers.",
+            "Oversaw consulting activities of fellow technical consultants.",
             "Provided mentorship and professional guidance to direct reports.",
             "Acted as the first point of contact when issues arose with direct reports' clients."
           ],
           "projects": [
             {
-              "title": "Trivent Financial - Senior Engineer",
+              "title": "Trivent Financial - DevOps Migration Project - Senior Engineer",
+              "startDate": "December 2023",
+              "endDate": "Present",
+              "technologies": [
+                {
+                  "icon": "uil uil-server-network",
+                  "title": "Artifactory"
+                },
+                {
+                  "title": "Linux",
+                  "icon": "devicon-linux-plain colored"
+                },
+                {
+                  "icon": "uil uil-server-network",
+                  "title": "Sonotype Nexus"
+                },
+                {
+                  "icon": "uil uil-comparison",
+                  "title": "Datadog"
+                }
+              ],
+              "description": "Engaged with Thrivent Financial to help modernize their application artifact and container image storage solutions.",
+              "duties": [
+                "Collaborated with cross-functional teams to modernize Thrivent Financial's application artifact and container image storage solutions and improved performance and scalability",
+                "Managed the runtime environment and mitigated performance issues for on-premises Sonatype Nexus installation",
+                "Provided guidance to the client as they migrated to JFrog Artifactory for application artifact and container image storage"
+              ]
+            },
+            {
+              "title": "Trivent Financial - Observability Project - Senior Engineer",
               "startDate": "October 2023",
-              "endDate": "present",
+              "endDate": "December 2023",
               "technologies": [
                 {
                   "icon": "uil uil-comparison",
                   "title": "Datadog"
-                },
-                {
-                  "icon": "uil uil-server-network",
-                  "title": "Artifactory"
                 }
               ],
-              "duties": ""
+              "description": "Worked closely with Thrivent's observability team to design and implement new observability patterns and standards, ensuring greater visibility into the company's systems and applications."
             },
             {
               "title": "Eisenhanlder & Co. - MarketLook.com - Senior Fullstack Engineer",
               "startDate": "June 2023",
               "endDate": "February 2024",
+              "description": "In close collaboration with the founder of Eisenhandler & Co, designed and built a application called MarketLook (https://www.eisenhandler.com/marketlook). This system was developed to help clients in the asset management industry compare compensation data for various roles with market data provided by other clients in order to make informed decisions about compensation and talent management.",
               "technologies": [
                 {
                   "icon": "devicon-amazonwebservices-plain-wordmark colored",
@@ -131,16 +160,28 @@
                 {
                   "icon": "devicon-postgresql-plain colored",
                   "title": "PostgreSQL"
+                },
+                {
+                  "icon": "devicon-jest-plain colored",
+                  "title": "Jest"
+                },
+                {
+                  "icon": "devicon-git-plain colored",
+                  "title": "git"
+                },
+                {
+                  "icon": "uil uil-brackets-curly",
+                  "title": "Serverless Framework"
                 }
               ],
               "duties": [
                 "Designed, developed, tested, and deployed frontend components and pages using React in TypeScript",
-                "Built and tested API data integrations in Python, which were run in AWS Lambda Functions behind AWS APIGateway",
+                "Built and tested API data integrations using Python, which ran in AWS Lambda Functions behind AWS APIGateway",
                 "Managed the relationship between Lambda and APIGateway via the Serverless Framework",
                 "Deployed changes to AWS infrastructure using the AWS Python CDK",
                 "Managed, stored, and queried data in PostgreSQL running on AWS RDS",
                 "Integrated AWS's Amplify React Library with AWS Cognito to build application authentication and authorization",
-                "Provided technical advice to the client on design and strategy, and provided development effort estimations as part of the development team",
+                "Provided technical advice to the client on design and strategy and provided development effort estimations as part of the development team",
                 "Mitigated production issues as they arose"
               ]
             },
@@ -166,20 +207,13 @@
                   "title": "Gradle"
                 },
                 {
-                  "title": "GCP",
-                  "icon": "devicon-googlecloud-plain colored"
-                },
-                {
                   "icon": "devicon-github-original colored",
                   "title": "GitHub"
                 },
+
                 {
-                  "title": "Teradata",
-                  "icon": "uil uil-database"
-                },
-                {
-                  "title": "MSSQL",
-                  "icon": "devicon-microsoftsqlserver-plain colored"
+                  "icon": "devicon-git-plain colored",
+                  "title": "git"
                 },
                 {
                   "icon": "devicon-docker-plain colored",
@@ -191,17 +225,15 @@
                 }
               ],
               "duties": [
-                "Implemented AWS cloud infrastructure to design and build a transaction hub to route transactions from all Best Buy sales channels to appropriate downstream applications",
-                "Implemented data models for ingestion from source application databases to Big Query.",
-                "Built views in Big Query for use by business users and other systems.",
-                "Scheduled extract from implemented views via Cloud Scheduler."
+                "Provided guidance and design for AWS cloud infrastructure, including AmazonMQ, ECS, Fargate, ECR, S3, and Lambda, to route reported transactions from all Best Buy sales channels to appropriate downstream applications",
+                "Collaborated with operations engineers to define Best Buy's implementation of AWS Service Catalog, enabling developers to deploy well-architected application infrastructure while ensuring best practices were always followed enterprise-wide"
               ]
             },
             {
               "icon": "https://i.pinimg.com/280x280_RS/76/7b/c0/767bc080aec80e0814fafe7e01a964e5.jpg",
               "title": "University of Saint Thomas Law School - Support Engineer",
               "startDate": "September 2022",
-              "endDate": "November 2022",
+              "endDate": "Present",
               "technologies": [
                 {
                   "icon": "devicon-python-plain colored",
@@ -253,19 +285,23 @@
                 }
               ],
               "duties": [
-                "Debugged and provided code fixes for bugs in frontend and backend functionality.",
-                "Updated system logic to better reflect user expectations.",
-                "Managed releases to the production environment.",
-                "Trained long-term support team in system's design and architecture."
+                "Debugged and provided code fixes for bugs in frontend and backend functionality, ensuring smooth and efficient operation of the system",
+                "Updated system logic to better reflect user expectations",
+                "Managed releases to the production environment",
+                "Trained and mentored the long-term support team in system design and architecture"
               ]
             }
           ]
         },
         {
-          "title": "Senior Developer Associate I-II",
+          "title": "Senior Developer Associate I & II",
           "startDate": "July 2019",
           "endDate": "April 2022",
-          "description": "As a consultant, provided full-stack custom software development solutions and support to client projects. Participated in and led training in new technologies.",
+          "description": "Worked as a Software Development Consultant and provided full-stack custom software development solutions and support to client projects.",
+          "duties": [
+            "Developed full-stack custom software solutions for clients, delivering high-quality and scalable software that met business requirements",
+            "Participated in and led training in new technologies, staying up-to-date with the latest industry developments"
+          ],
           "technologies": [
             {
               "icon": "devicon-go-original-wordmark colored",
@@ -278,14 +314,15 @@
               "title": "University of Saint Thomas Law School - Back End Developer",
               "startDate": "October 2021",
               "endDate": "May 2022",
-              "description": "Built a platform to allow law school professors to match students with mentors based on student and mentor input and manage time entry for students’ fieldwork. Designed and implemented Python code in an AWS serverless architecture as well as provided full-stack and infrastructure development support to the rest of the development team.",
+              "description": "Built a platform to allow law school professors to match students with mentors based on student and mentor input and manage time entry for students’ fieldwork.",
               "duties": [
-                "Designed a framework for routing event-based traffic within an AWS Lambda and managing data model mapping which formed the basis for the project's API.",
-                "Designed and developed a new MySQL Database in AWS Aurora and built version control and SQL management scripts for use in FlywayDB.",
-                "Built end-to-end tests in Postman's Newman and Cypress run in AWS Build Pipelines to test front and backend code as well as the integration between them.",
-                "Implemented Bash scripts, Docker Compose configurations, and used AWS SAM framework to improve developer workflow and facilitate ease of local development.",
-                "Provided full stack development support and assistance with building functionality, interfaces, and infrastructure in Python, SQL Alchemy, JavaScript, Vue.js, TailwindCSS, and Terraform.",
-                "Lead and participated in code reviews and assisted other developers in pair programming and debugging code.",
+                "Designed and implemented Python code in an AWS serverless architecture, as well as provided full-stack and infrastructure development support to the rest of the development team",
+                "Designed a framework for routing event-based traffic within an AWS Lambda and managing data model mapping, forming the basis for the project's API",
+                "Designed and developed a new MySQL Database in AWS Aurora, building version control and SQL schema management scripts for use in FlywayDB",
+                "Built end-to-end tests in Postman's Newman and Cypress run in AWS Build Pipelines to test front and backend code, as well as the integration between them",
+                "Implemented Bash scripts, Docker Compose configurations, and used AWS SAM framework to improve developer workflow and facilitate ease of local development",
+                "Provided full-stack development support and assistance with building functionality, interfaces, and infrastructure in Python, SQL Alchemy, JavaScript, Vue.js, TailwindCSS, and Terraform",
+                "Led and participated in code reviews and assisted other developers in pair programming and debugging code",
                 "Mentored junior developers on the project team"
               ],
               "technologies": [
@@ -336,6 +373,10 @@
                 {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
+                },
+                {
+                  "icon": "devicon-postman-plain colored",
+                  "title": "Postman"
                 }
               ]
             },
@@ -343,12 +384,12 @@
               "title": "ETL and Reporting Projects - Developer",
               "startDate": "June 2021",
               "endDate": "October 2021",
-              "description": "Built data pipelines in an AWS serverless architecture to provide feedback on project statuses and consultant performance and availability to key Turnberry stakeholders.",
+              "description": "Built data pipelines in an AWS serverless architecture to provide feedback on project statuses and consultant performance and availability to key Turnberry stakeholders",
               "duties": [
-                "Developed ETL in AWS Lambda to pull data from multiple internal and external sources to centralized datastores, including S3 and MySQL in AWS Aurora",
-                "Built reporting pipeline to deliver data to key stakeholders and company leadership via PowerBI and SMS emails",
-                "Built cloud infrastructure in Terraform to build resilient, event-driven, data pipelines.",
-                "Trained and mentored junior developers."
+                "Developed ETL in AWS Lambda to pull data from multiple internal and external sources to centralized data stores, including S3 and MySQL in AWS Aurora",
+                "Built a reporting pipeline to deliver data to key stakeholders and company leadership via PowerBI and SMS emails",
+                "Built cloud infrastructure in Terraform to build resilient, event-driven, data pipelines",
+                "Trained and mentored junior developers"
               ],
               "technologies": [
                 {
@@ -392,11 +433,11 @@
               "endDate": "June 2021",
               "description": "Designed and implemented front and back-end additions and enhancements to internally developed systems that assisted in the development of a rules engine that allowed business users the ability to author customizable rules to evaluate the quality of data reported to regulatory organizations.",
               "duties": [
-                "Built code using PHP, Laravel, JavaScript, and Vue.js into an existing system that utilized a shunting yard algorithm to execute user-defined functions on data stored in an Elasticsearch cluster.",
-                "Implemented enhancements to Apache Spark ETL process in Scala pulling data from source systems, primarily housed in Teradata, to populate an Elasticsearch cluster.",
-                "Liaised with business users to gather requirements and feedback on project status and design.",
-                "Authored and maintained end-user and developer documentation.",
-                "Provided consultation to project team leads on system design and project direction."
+                "Built features using PHP, Laravel, JavaScript, and Vue.js into an existing system that utilized a shunting yard algorithm to execute user-defined functions on data stored in an Elasticsearch cluster",
+                "Implemented enhancements to Apache Spark ETL process in Scala, pulling data from source systems primarily housed in Teradata to populate an Elasticsearch cluster",
+                "Liaised with business users to gather requirements and feedback on project status and design",
+                "Authored and maintained end-user and developer documentation",
+                "Provided consultation to project team leads on system design and project direction"
               ],
               "technologies": [
                 {
@@ -444,10 +485,6 @@
                   "icon": "devicon-linux-plain colored"
                 },
                 {
-                  "icon": "devicon-github-original colored",
-                  "title": "GitHub"
-                },
-                {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
                 },
@@ -479,14 +516,14 @@
           "title": "Associate Application Analyst",
           "startDate": "June 2017",
           "endDate": "July 2019",
-          "description": "As a Java Developer within the Individual Annuity Division, built batch processes and API services to facilitate transactions on customer Annuity products, provide product performance data to business associates, and report product performance on financial statements. ",
+          "description": "As a Java Developer within the Individual Annuity Division, built batch processes and API services to facilitate the transfer of data between internal and external systems.",
           "duties": [
-            "Designed new applications and enhancements to existing software for internally developed Java Spring-Batch applications, web services, and purchased software solutions.",
-            "Provided direct support to business clients as well as oversaw the team backlog of system defects and sat as liaison to the business unit on a cross-functional team assigned to oversee defect backlog.",
-            "Migrated source code from the legacy version control system to a CI/CD automated deployment pipeline based on git and GitHub, Jenkins, and Puppet.",
-            "Engaged in exploratory project piloting the implementation of Agile methodologies.",
-            "Contributed to several legacy modernization projects converting Mainframe PL/I programs and data sources to Java Spring-Batch and MSSQL and Oracle databases.",
-            "Integrated external tools and systems into existing programs according to vendor specifications."
+            "Designed new applications and enhancements to existing software for internally developed Java Spring-Batch applications, web services, and purchased software solutions",
+            "Provided direct support to business clients as well as oversaw the team backlog of system defects and sat as liaison to the business unit on a cross-functional team assigned to oversee defect backlog",
+            "Migrated source code from the legacy version control system to a CI/CD automated deployment pipeline based on git and GitHub, Jenkins, Artifactory, and Puppet",
+            "Engaged in exploratory project piloting the implementation of Agile methodologies",
+            "Contributed to several legacy modernization projects converting Mainframe PL/I programs and data sources to Java Spring-Batch applications and MSSQL and Oracle databases",
+            "Integrated external tools and systems into existing programs according to vendor specifications"
           ],
           "technologies": [
             {

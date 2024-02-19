@@ -139,4 +139,5 @@ package/
 .DS_STORE
 .response.json
 
-.env.*
+.*/*
+env.js
