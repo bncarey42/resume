@@ -6,10 +6,7 @@
       "city": "Saint Paul, Minnesota",
       "degree": "Associates of Applied Science: Computer Programming",
       "yearGraduated": "2017",
-      "extra": [
-        "GPA: 3.7/4.0",
-        "Honors: Dean's List"
-      ],
+      "extra": ["GPA: 3.7/4.0", "Honors: Dean's List"],
       "courses": [
         {
           "title": "CSCI 1410 Computer Science and Information Systems - Saint Paul College",
@@ -96,20 +93,20 @@
               "endDate": "Present",
               "technologies": [
                 {
-                  "icon": "uil uil-server-network",
-                  "title": "Artifactory"
-                },
-                {
                   "title": "Linux",
                   "icon": "devicon-linux-plain colored"
                 },
                 {
-                  "icon": "uil uil-server-network",
-                  "title": "Sonotype Nexus"
+                  "title": "ELK Stack",
+                  "icon": "devicon-elasticsearch-plain colored"
                 },
                 {
-                  "icon": "uil uil-comparison",
-                  "title": "Datadog"
+                  "icon": "uil uil-server-network",
+                  "title": "Artifactory"
+                },
+                {
+                  "icon": "uil uil-server-network",
+                  "title": "Sonotype Nexus"
                 }
               ],
               "description": "Engaged with Thrivent Financial to help modernize their application artifact and container image storage solutions.",
@@ -138,14 +135,6 @@
               "description": "In close collaboration with the founder of Eisenhandler & Co, designed and built a application called MarketLook (https://www.eisenhandler.com/marketlook). This system was developed to help clients in the asset management industry compare compensation data for various roles with market data provided by other clients in order to make informed decisions about compensation and talent management.",
               "technologies": [
                 {
-                  "icon": "devicon-amazonwebservices-plain-wordmark colored",
-                  "title": "AWS"
-                },
-                {
-                  "icon": "devicon-python-plain colored",
-                  "title": "Python"
-                },
-                {
                   "icon": "devicon-typescript-plain colored",
                   "title": "Typescript"
                 },
@@ -156,6 +145,14 @@
                 {
                   "icon": "devicon-materialui-plain colored",
                   "title": "Material UI"
+                },
+                {
+                  "icon": "devicon-amazonwebservices-plain-wordmark colored",
+                  "title": "AWS"
+                },
+                {
+                  "icon": "devicon-python-plain colored",
+                  "title": "Python"
                 },
                 {
                   "icon": "devicon-postgresql-plain colored",
@@ -272,6 +269,10 @@
                   "title": "Bash"
                 },
                 {
+                  "icon": "devicon-openapi-plain colored",
+                  "title": "OpenAPI"
+                },
+                {
                   "icon": "devicon-docker-plain colored",
                   "title": "Docker"
                 },
@@ -361,6 +362,11 @@
                 {
                   "icon": "devicon-bash-plain colored",
                   "title": "Bash"
+                },
+
+                {
+                  "icon": "devicon-openapi-plain colored",
+                  "title": "OpenAPI"
                 },
                 {
                   "icon": "devicon-docker-plain colored",
@@ -462,7 +468,7 @@
                 },
                 {
                   "title": "Spark",
-                  "icon": "devicon-apache-line colored"
+                  "icon": "devicon-apachespark-plain-wordmark colored"
                 },
                 {
                   "title": "Scala",
