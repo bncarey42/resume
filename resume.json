@@ -1,4 +1,6 @@
 {
+  "description": "I am a systems-minded software engineer who has worked in the industry since 2017. I am questioning and curious, focusing on simplifying big problems to implement effective and maintainable solutions. I am a lifelong learner searching for ways to expand my understanding of fundamental and complex ideas.",
+  "aboutMe": ["Hello there. I'm Ben", ""],
   "education": [
     {
       "school": "Saint Paul College",
@@ -6,7 +8,10 @@
       "city": "Saint Paul, Minnesota",
       "degree": "Associates of Applied Science: Computer Programming",
       "yearGraduated": "2017",
-      "extra": ["GPA: 3.7/4.0", "Honors: Dean's List"],
+      "extra": [
+        "GPA: 3.7/4.0",
+        "Honors: Dean's List"
+      ],
       "courses": [
         {
           "title": "CSCI 1410 Computer Science and Information Systems - Saint Paul College",
@@ -87,10 +92,11 @@
             "Acted as the first point of contact when issues arose with direct reports' clients."
           ],
           "projects": [
+              {"title": "Clear Point Health - ClearQuote Product - Senior Engineer", "startDate": "March 2024", "endDate":"Present"}
             {
               "title": "Trivent Financial - DevOps Migration Project - Senior Engineer",
               "startDate": "December 2023",
-              "endDate": "Present",
+              "endDate": "March 2024",
               "technologies": [
                 {
                   "title": "Linux",
@@ -207,7 +213,6 @@
                   "icon": "devicon-github-original colored",
                   "title": "GitHub"
                 },
-
                 {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
@@ -363,7 +368,6 @@
                   "icon": "devicon-bash-plain colored",
                   "title": "Bash"
                 },
-
                 {
                   "icon": "devicon-openapi-plain colored",
                   "title": "OpenAPI"

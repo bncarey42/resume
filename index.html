@@ -27,7 +27,7 @@
           />
         </div> -->
         <div class="grow">
-            <h1 class="h-4/6 text-6xl text-dark font-semibold">{{ name }}</h1>
+            <h1 class="h-4/6 text-5xl text-dark font-semibold">{{ name }}</h1>
             <ul class="pl-1 flex justify-start gap-3 text-muted">
                 <li v-for="env in contacts" :key="env">
                     <div class="flex justify-between gap-2" v-if="env.title">
@@ -192,15 +192,15 @@
             </p>
             <div class="ml-2">
               <div v-if="role.technologies?.length" class=''>
-                <h4 class="mb-1">Technologies:</h4>
-                <ul class="inline-grid grid-cols-9 gap-1 w-full ml-2">
+                <!-- <h4 class="mb-1">Technologies:</h4>--> 
+                <ul class="inline-grid grid-cols-8 gap-1  w-full ml-2">
                   <li class="text-center" v-for="(tech, key) in role.technologies" :key="key">
                     <icon :icon="tech.icon" :title="tech.title"/>
                   </li>
                 </ul>
               </div>
               <div v-if="role.duties?.length" class=''>
-                <h4 class="mb-1">Responsibilities:</h4>
+                <!--<h4 class="mb-1">Responsibilities:</h4>-->
                 <div class="ml-2">
                   <ul>
                     <li class="list-disc" v-for="(duty, key) in role.duties" :key="key">{{ duty }}</li>
