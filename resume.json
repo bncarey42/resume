@@ -81,7 +81,8 @@
       "startDate": "July 2019",
       "endDate": "Present",
       "roles": [
-        {
+
+          {
           "title": "Software Engineering Managing Consultant",
           "startDate": "April 2022",
           "endDate": "Present",
@@ -92,7 +93,28 @@
             "Acted as the first point of contact when issues arose with direct reports' clients."
           ],
           "projects": [
-              {"title": "Clear Point Health - ClearQuote Product - Senior Engineer", "startDate": "March 2024", "endDate":"Present"}
+              {"title": "ClearPoint Health - ClearQuote - Senior Engineer", 
+              "startDate": "March 2024", 
+              "endDate": "Present", 
+              "technologies": [
+                
+                {
+                  "icon": "devicon-python-plain colored",
+                  "title": "Python"
+                },
+                { "icon": "devicon-azure-plain-wordmark colored",
+                    "title": "Azure"
+                },
+                { "icon": "devicon-azuredevops-plain colored", "title": "Azure DevOps"                },
+                {"icon":"devicon-cosmosdb-plain-wordmark colored", "title":"Azure CosmosDB"}
+              ], 
+              "description": "Partnered with the client ClearPoint Health to design and implement a proof of concept for an automated underwriting system.",
+              "duties": [
+           "Designed a rudimentary schema validation processor for initial customer requests for quote and census documents in Python running in Azure Functions",
+"Integrated Azure Function code with CosmosDB to store customer records",
+"Passed validated customer documents to external underwriting APIs and stored responses with customer records",
+"Alerted ClearPoint brokers when new quotes were available or if an error occurred in the processor via automated Email messages"
+              ]},
             {
               "title": "Trivent Financial - DevOps Migration Project - Senior Engineer",
               "startDate": "December 2023",
@@ -169,6 +191,7 @@
                   "title": "Jest"
                 },
                 {
+                  "icon": "devicon-git-plain colored",
                   "icon": "devicon-git-plain colored",
                   "title": "git"
                 },
@@ -656,7 +679,6 @@
           "endDate": "November 2014",
           "description": null,
           "duties": [
-            "Prepared and served coffee and tea-based drinks as well as food products according to company practices and standards.",
             "Ensure that products meet customer and company standards.",
             "Performed daily cleaning duties."
           ]
