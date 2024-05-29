@@ -116,7 +116,7 @@
 "Alerted ClearPoint brokers when new quotes were available or if an error occurred in the processor via automated Email messages"
               ]},
             {
-              "title": "Trivent Financial - DevOps Migration Project - Senior Engineer",
+              "title": "Thrivent Financial - DevOps Migration Project - Senior Engineer",
               "startDate": "December 2023",
               "endDate": "March 2024",
               "technologies": [
@@ -145,7 +145,7 @@
               ]
             },
             {
-              "title": "Trivent Financial - Observability Project - Senior Engineer",
+              "title": "Thrivent Financial - Observability Project - Senior Engineer",
               "startDate": "October 2023",
               "endDate": "December 2023",
               "technologies": [
@@ -160,7 +160,7 @@
               "title": "Eisenhanlder & Co. - MarketLook.com - Senior Fullstack Engineer",
               "startDate": "June 2023",
               "endDate": "February 2024",
-              "description": "In close collaboration with the founder of Eisenhandler & Co, designed and built a application called MarketLook (https://www.eisenhandler.com/marketlook). This system was developed to help clients in the asset management industry compare compensation data for various roles with market data provided by other clients in order to make informed decisions about compensation and talent management.",
+              "description": "In close collaboration with the founder of Eisenhandler & Co, designed and built an application called MarketLook (https://www.eisenhandler.com/marketlook). This system was developed to help clients in the asset management industry compare compensation data for various roles with market data provided by other clients in order to make informed decisions about compensation and talent management.",
               "technologies": [
                 {
                   "icon": "devicon-typescript-plain colored",
@@ -349,7 +349,7 @@
                 "Designed a framework for routing event-based traffic within an AWS Lambda and managing data model mapping, forming the basis for the project's API",
                 "Designed and developed a new MySQL Database in AWS Aurora, building version control and SQL schema management scripts for use in FlywayDB",
                 "Built end-to-end tests in Postman's Newman and Cypress run in AWS Build Pipelines to test front and backend code, as well as the integration between them",
-                "Implemented Bash scripts, Docker Compose configurations, and used AWS SAM framework to improve developer workflow and facilitate ease of local development",
+                "Implemented Bash scripts, Docker Compose configurations, and AWS SAM framework to improve developer workflow and facilitate ease of local development",
                 "Provided full-stack development support and assistance with building functionality, interfaces, and infrastructure in Python, SQL Alchemy, JavaScript, Vue.js, TailwindCSS, and Terraform",
                 "Led and participated in code reviews and assisted other developers in pair programming and debugging code",
                 "Mentored junior developers on the project team"
