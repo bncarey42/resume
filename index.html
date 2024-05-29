@@ -27,7 +27,7 @@
           />
         </div> -->
         <div class="grow">
-            <h1 class="h-4/6 text-6xl text-dark font-semibold">{{ name }}</h1>
+            <h1 class="h-4/6 text-5xl text-dark font-semibold">{{ name }}</h1>
             <ul class="pl-1 flex justify-start gap-3 text-muted">
                 <li v-for="env in contacts" :key="env">
                     <div class="flex justify-between gap-2" v-if="env.title">
@@ -76,6 +76,7 @@
 </body>
 <script type="text/javascript">
     const {createApp} = Vue;
+    const contact = {EMAIL: "", PHONE: ""};
     app = createApp({
         data() {
             return {
@@ -87,13 +88,13 @@
                     },
                     {
                         icon: "uil uil-phone",
-                        title: contact?.PHONE,
-                        link: `tel:${contact?.PHONE}`,
+                        title: contact.PHONE,
+                      link: `tel:${contact.PHONE}`,
                     },
                     {
                         icon: "uil uil-envelope-alt",
-                        title: contact?.EMAIL,
-                        link: `mailto:${contact?.EMAIL}`,
+                        title: contact.EMAIL,
+                        link: `mailto:${contact.EMAIL}`,
                     },
                 ],
                 sites: [
@@ -121,15 +122,15 @@
         },
         created() {
             fetch(
-                // "https://api.github.com/repos/bncarey42/resume/contents/resume.json?ref=main",
-                // {
-                //   method: "GET",
-                //   headers: new Headers({
-                //     Accept: "application/vnd.github.VERSION.raw",
-                //   }),
-                //   redirect: "follow"
-                // }
-                "./resume.json"
+                 "https://api.github.com/repos/bncarey42/resume/contents/resume.json?ref=main",
+                 {
+                   method: "GET",
+                   headers: new Headers({
+                     Accept: "application/vnd.github.VERSION.raw",
+                   }),
+                   redirect: "follow"
+                 }
+                <!-- "./resume.json" -->
             )
                 .then((response) => response.json())
                 .then((data) => {
@@ -192,15 +193,15 @@
             </p>
             <div class="ml-2">
               <div v-if="role.technologies?.length" class=''>
-                <h4 class="mb-1">Technologies:</h4>
-                <ul class="inline-grid grid-cols-9 gap-1 w-full ml-2">
+                <!-- <h4 class="mb-1">Technologies:</h4>--> 
+                <ul class="inline-grid grid-cols-8 gap-1  w-full ml-2">
                   <li class="text-center" v-for="(tech, key) in role.technologies" :key="key">
                     <icon :icon="tech.icon" :title="tech.title"/>
                   </li>
                 </ul>
               </div>
               <div v-if="role.duties?.length" class=''>
-                <h4 class="mb-1">Responsibilities:</h4>
+                <!--<h4 class="mb-1">Responsibilities:</h4>-->
                 <div class="ml-2">
                   <ul>
                     <li class="list-disc" v-for="(duty, key) in role.duties" :key="key">{{ duty }}</li>
