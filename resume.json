@@ -165,6 +165,7 @@
                   "title": "Linux",
                   "icon": "devicon-linux-plain colored"
                 },
+                { "title": "Bash", "icon": "devicon-bash-plain colored" },
                 {
                   "title": "ELK Stack",
                   "icon": "devicon-elasticsearch-plain colored"
@@ -241,14 +242,14 @@
                 }
               ],
               "duties": [
-                "Designed, developed, tested, and deployed frontend components and pages using React in TypeScript",
-                "Built and tested API data integrations using Python, which ran in AWS Lambda Functions behind AWS APIGateway",
-                "Managed the relationship between Lambda and APIGateway via the Serverless Framework",
-                "Deployed changes to AWS infrastructure using the AWS Python CDK",
-                "Managed, stored, and queried data in PostgreSQL running on AWS RDS",
-                "Integrated AWS's Amplify React Library with AWS Cognito to build application authentication and authorization",
-                "Provided technical advice to the client on design and strategy and provided development effort estimations as part of the development team",
-                "Mitigated production issues as they arose"
+                "Lead the design, development, testing, and deployment of scalable frontend components and pages using React in TypeScript, providing seamless user experiences and optimal performance",
+                "Developed and tested RESTful API integrations using Python",
+                "Utilized the Serverless Framework to orchestrate the relationship between Python code, AWS Lambda Functions, and AWS API Gateway to streamline API management",
+                "Implemented AWS infrastructure using AWS Python CDK",
+                "Managed data in PostgreSQL database deployed on AWS RDS",
+                "Integrated AWS Amplify with Cognito to implement robust authentication and authorization, securing access controls and user management",
+                "Ensured production stability, rapidly identifying and resolving issues, collaborating with the development team to implement fixes, and improving overall system reliability",
+                "Provided strategic technical guidance to client, advising on system design, and technical strategy"
               ]
             },
             {
