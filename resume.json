@@ -298,11 +298,11 @@
                 }
               ],
               "duties": [
-                "Provided guidance and design for AWS cloud infrastructure, including AmazonMQ, ECS, Fargate, ECR, S3, and Lambda, to route reported transactions from all Best Buy sales channels to appropriate downstream applications",
-                "Set up configuration and authentication for GitHub Actions piplines to access AWS via OpenID Connect",
-                "Configure CloudFormation Stacks to define AWS cloud infrastructure",
-                "Collaborated with operations engineers to define Best Buy's implementation of AWS Service Catalog, enabling developers to deploy well-architected application infrastructure while ensuring best practices were always followed enterprise-wide",
-                "Use Terraform to configure infrastructure from AWS Service Catalog"
+                "Engineered and optimized scalable AWS cloud infrastructure, leveraging AmazonMQ, Fargate, ECS, ECR, S3, and Lambda to route transactions from all Best Buy sales channels to downstream applications ensuring seamless integration and performant data flow",
+                "Configured GitHub Actions pipelines with OpenID Connect authentication, granting access to build AWS services and to enable DevOps workflows",
+                "Developed and maintained CloudFormation Stacks to define and provision AWS cloud infrastructure",
+                "Collaborated with cross-functional teams to establish Best Buy's AWS Service Catalog implementation, empowering developers to deploy well-architected application infrastructure while enforcing enterprise-wide best practices and governance",
+                "Utilized Terraform to configure and manage infrastructure from Best Buy's AWS Service Catalog"
               ]
             },
             {
