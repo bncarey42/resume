@@ -264,7 +264,10 @@
                   "icon": "devicon-github-original colored",
                   "title": "GitHub"
                 },
-
+                {
+                  "icon": "devicon-githubactions-plain colored",
+                  "title": "GitHub Actions"
+                },
                 {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
@@ -280,6 +283,8 @@
               ],
               "duties": [
                 "Provided guidance and design for AWS cloud infrastructure, including AmazonMQ, ECS, Fargate, ECR, S3, and Lambda, to route reported transactions from all Best Buy sales channels to appropriate downstream applications",
+                "Set up configuration and authentication for GitHub Actions piplines to access AWS via OpenID Connect",
+                "Configure CloudFormation Stacks to define AWS cloud infrastructure",
                 "Collaborated with operations engineers to define Best Buy's implementation of AWS Service Catalog, enabling developers to deploy well-architected application infrastructure while ensuring best practices were always followed enterprise-wide"
               ]
             },
