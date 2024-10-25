@@ -101,6 +101,8 @@
                   "icon": "devicon-tailwindcss-plain",
                   "title": "HeadlessUI"
                 },
+                { "icon": "devicon-vitejs-plain colored", "title": "Vite" },
+                { "icon": "devicon-vitest-plain colored", "title": "Vitest" },
                 { "icon": "devicon-python-plain", "title": "Python" },
                 {
                   "icon": "devicon-flask-original colored",
@@ -110,7 +112,7 @@
                 { "icon": "devicon-azuredevops-plain", "title": "Azure DevOps" }
               ],
               "description": "",
-              "duties": []
+              "duties": ["", "Set up Unit Testing framework using Vitest"]
             },
             {
               "title": "ClearPoint Health - ClearQuote - Senior Engineer",
