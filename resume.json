@@ -94,18 +94,37 @@
               "startDate": "August 2024",
               "endDate": "Present",
               "technologies": [
-                { "icon": "devicon-typescript-plain", "title": "Typescript" },
-                { "icon": "devicon-react-original", "title": "React" },
-                { "icon": "devicon-python-plain", "title": "Python" },
+                {
+                  "icon": "devicon-typescript-plain colored",
+                  "title": "Typescript"
+                },
+                { "icon": "devicon-react-original colored", "title": "React" },
+                {
+                  "icon": "devicon-tailwindcss-plain colored",
+                  "title": "TailwindCSS"
+                },
+                {
+                  "icon": "devicon-tailwindcss-plain colored",
+                  "title": "HeadlessUI"
+                },
+                { "icon": "devicon-vitejs-plain colored", "title": "Vite" },
+                { "icon": "devicon-vitest-plain colored", "title": "Vitest" },
+                { "icon": "devicon-python-plain colored", "title": "Python" },
                 {
                   "icon": "devicon-flask-original colored",
                   "title": "Flask"
                 },
-                { "icon": "devicon-azure-plain-wordmark", "title": "Azure" },
-                { "icon": "devicon-azuredevops-plain", "title": "Azure DevOps" }
+                {
+                  "icon": "devicon-azure-plain-wordmark colored",
+                  "title": "Azure"
+                },
+                {
+                  "icon": "devicon-azuredevops-plain colored",
+                  "title": "Azure DevOps"
+                }
               ],
               "description": "",
-              "duties": []
+              "duties": ["", "Set up Unit Testing framework using Vitest"]
             },
             {
               "title": "ClearPoint Health - ClearQuote - Senior Engineer",
@@ -254,10 +273,17 @@
                   "title": "Gradle"
                 },
                 {
+                  "icon": "devicon-terraform-plain colored",
+                  "title": "Terraform"
+                },
+                {
                   "icon": "devicon-github-original colored",
                   "title": "GitHub"
                 },
-
+                {
+                  "icon": "devicon-githubactions-plain colored",
+                  "title": "GitHub Actions"
+                },
                 {
                   "icon": "devicon-git-plain colored",
                   "title": "git"
@@ -273,7 +299,10 @@
               ],
               "duties": [
                 "Provided guidance and design for AWS cloud infrastructure, including AmazonMQ, ECS, Fargate, ECR, S3, and Lambda, to route reported transactions from all Best Buy sales channels to appropriate downstream applications",
-                "Collaborated with operations engineers to define Best Buy's implementation of AWS Service Catalog, enabling developers to deploy well-architected application infrastructure while ensuring best practices were always followed enterprise-wide"
+                "Set up configuration and authentication for GitHub Actions piplines to access AWS via OpenID Connect",
+                "Configure CloudFormation Stacks to define AWS cloud infrastructure",
+                "Collaborated with operations engineers to define Best Buy's implementation of AWS Service Catalog, enabling developers to deploy well-architected application infrastructure while ensuring best practices were always followed enterprise-wide",
+                "Use Terraform to configure infrastructure from AWS Service Catalog"
               ]
             },
             {
