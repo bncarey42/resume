@@ -97,6 +97,9 @@
                 { "icon": "devicon-typescript-plain", "title": "Typescript" },
                 { "icon": "devicon-react-original", "title": "React" },
                 { "icon": "devicon-tailwindcss-plain", "title": "TailwindCSS" },
+                {
+                  "icon": "devicon-tailwindcss-plain", "title": "HeadlessUI"},
+                }
                 { "icon": "devicon-python-plain", "title": "Python" },
                 {
                   "icon": "devicon-flask-original colored",
